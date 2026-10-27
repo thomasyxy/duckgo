@@ -1,0 +1,4167 @@
+{
+  "sha": "79b3f1afdad455f55e4a25030953617152c0227c",
+  "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/79b3f1afdad455f55e4a25030953617152c0227c",
+  "tree": [
+    {
+      "path": ".checkpatch.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57de7eb45f1fe1a6a28d182597cbc2bc79f16232",
+      "size": 173,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/57de7eb45f1fe1a6a28d182597cbc2bc79f16232"
+    },
+    {
+      "path": ".clang-format",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96b776d99362ccd8398224c5e1bf677482c6e249",
+      "size": 3388,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/96b776d99362ccd8398224c5e1bf677482c6e249"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72cace1657521262888966fb6d8d50d7d2d879d6",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/72cace1657521262888966fb6d8d50d7d2d879d6"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4960864b6e38a80a5cb780b6aa51b675580b9fb7",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/4960864b6e38a80a5cb780b6aa51b675580b9fb7"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/compilation_bug_report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79402ed080c5041d1d56fe00bdaa21457272ed83",
+      "size": 585,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/79402ed080c5041d1d56fe00bdaa21457272ed83"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/miscellaneous_bug_report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a24d7f6e057d5ae23a4993b9812cc1fa0433ba5",
+      "size": 687,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7a24d7f6e057d5ae23a4993b9812cc1fa0433ba5"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/runtime_bug_report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ba6ddff1a689da3915c3d35ab3cb0ffa48ee86",
+      "size": 1241,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a4ba6ddff1a689da3915c3d35ab3cb0ffa48ee86"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed4f366579203bc75551775d383b0cae4f36b56d",
+      "size": 641,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/ed4f366579203bc75551775d383b0cae4f36b56d"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4296981d20d89aec17e5685808fba3c59375906",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/e4296981d20d89aec17e5685808fba3c59375906"
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2e771431ce480ccd56225057073d505d4b0909c",
+      "size": 2304,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d2e771431ce480ccd56225057073d505d4b0909c"
+    },
+    {
+      "path": ".github/workflows/commit_check.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19424d5aa6283595c09132cc98a5c855f1ad3458",
+      "size": 1069,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/19424d5aa6283595c09132cc98a5c855f1ad3458"
+    },
+    {
+      "path": ".github/workflows/format_check.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d29ea846d8addacc9b00f2056bc88f10e836d32",
+      "size": 1658,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/0d29ea846d8addacc9b00f2056bc88f10e836d32"
+    },
+    {
+      "path": ".github/workflows/leave_pr_comment.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79055fbba216d8ecf8c5840d0c6c7fdbfc587d7d",
+      "size": 1742,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/79055fbba216d8ecf8c5840d0c6c7fdbfc587d7d"
+    },
+    {
+      "path": ".github/workflows/package_core.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "754d67f3b72969ee535f239f979956ae8c9687ed",
+      "size": 31357,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/754d67f3b72969ee535f239f979956ae8c9687ed"
+    },
+    {
+      "path": ".github/workflows/package_tool.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bacd2afbd5e7d32b580a80af4c4f1fcee07f89df",
+      "size": 7547,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/bacd2afbd5e7d32b580a80af4c4f1fcee07f89df"
+    },
+    {
+      "path": ".github/workflows/report_size_deltas.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adc4abf139a17cb2cfc0fd477d0fbc20c06b6d75",
+      "size": 382,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/adc4abf139a17cb2cfc0fd477d0fbc20c06b6d75"
+    },
+    {
+      "path": ".github/workflows/scancode.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf969196055f76785771c3068feb1587540c8a7d",
+      "size": 1524,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/cf969196055f76785771c3068feb1587540c8a7d"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8965cf832325c44253b14ff8f061ab62f0d0aec0",
+      "size": 235,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8965cf832325c44253b14ff8f061ab62f0d0aec0"
+    },
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59aeebe905deb1c4db9f5c5721e19604ad8a7e58",
+      "size": 2579,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/59aeebe905deb1c4db9f5c5721e19604ad8a7e58"
+    },
+    {
+      "path": "CODEOWNERS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a54cd0348041a675a388698a3b226f863260d48",
+      "size": 169,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/1a54cd0348041a675a388698a3b226f863260d48"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c6434e770939324745eb8278b5f9bd7746afa9c",
+      "size": 5227,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7c6434e770939324745eb8278b5f9bd7746afa9c"
+    },
+    {
+      "path": "Kconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6c45a10d42606f700ca04199c79f6bb99045254",
+      "size": 1267,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b6c45a10d42606f700ca04199c79f6bb99045254"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.gsoc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40655fd590faf4b53ecd57f58cf99567d59e883",
+      "size": 2223,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b40655fd590faf4b53ecd57f58cf99567d59e883"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddef61b37ec11bd98947ea59f84bb3090e42e0dd",
+      "size": 18208,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/ddef61b37ec11bd98947ea59f84bb3090e42e0dd"
+    },
+    {
+      "path": "boards.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7985643873e1a798bf7dd37f04a9cdedddb1536a",
+      "size": 27227,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7985643873e1a798bf7dd37f04a9cdedddb1536a"
+    },
+    {
+      "path": "cores",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ceee8a4fbe3b0d847ac1aaf1940fa38a48daf73",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/0ceee8a4fbe3b0d847ac1aaf1940fa38a48daf73"
+    },
+    {
+      "path": "cores/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "626fe6b12cac8ecfb6bb58cf8aa11c79ad80346c",
+      "size": 65,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/626fe6b12cac8ecfb6bb58cf8aa11c79ad80346c"
+    },
+    {
+      "path": "cores/arduino",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d7cb0854c381810a0869d1a90d0bfb79b008c4f8",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/d7cb0854c381810a0869d1a90d0bfb79b008c4f8"
+    },
+    {
+      "path": "cores/arduino/Arduino.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "446171844d7e6c4a4ef1dc565f3d264ec2cfe5ff",
+      "size": 6277,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/446171844d7e6c4a4ef1dc565f3d264ec2cfe5ff"
+    },
+    {
+      "path": "cores/arduino/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64e9926ca3c15538eb361d21ddd9219a9838215b",
+      "size": 588,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/64e9926ca3c15538eb361d21ddd9219a9838215b"
+    },
+    {
+      "path": "cores/arduino/DebugLog.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d78ccdfa52d6f16e863bd545dbdaa8baab1545f",
+      "size": 658,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7d78ccdfa52d6f16e863bd545dbdaa8baab1545f"
+    },
+    {
+      "path": "cores/arduino/SerialUSB.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75c049a52e5743b8c0922c7f9ab6aba040832787",
+      "size": 1274,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/75c049a52e5743b8c0922c7f9ab6aba040832787"
+    },
+    {
+      "path": "cores/arduino/Tone.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea5dda9b4bfb8e8722659fd0cfb1f0e46b509612",
+      "size": 4210,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/ea5dda9b4bfb8e8722659fd0cfb1f0e46b509612"
+    },
+    {
+      "path": "cores/arduino/USB.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fb6cb165e30c58443a4e2eab1bd1170911a4ca7",
+      "size": 2706,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/5fb6cb165e30c58443a4e2eab1bd1170911a4ca7"
+    },
+    {
+      "path": "cores/arduino/WInterrupts.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9d2229f68301683d1b9c68840bcbf83df66577b",
+      "size": 3722,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a9d2229f68301683d1b9c68840bcbf83df66577b"
+    },
+    {
+      "path": "cores/arduino/WMath.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8dcc835ee8a5bcd3ee78991c6523ac52f8576c5",
+      "size": 470,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d8dcc835ee8a5bcd3ee78991c6523ac52f8576c5"
+    },
+    {
+      "path": "cores/arduino/abi.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60e98d1021cffd867b36dc4fc0aefb16fc4855a5",
+      "size": 4090,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/60e98d1021cffd867b36dc4fc0aefb16fc4855a5"
+    },
+    {
+      "path": "cores/arduino/inlines.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0b710bd8dbfd5bf6dae66c1ca410a8fad4ba7f3",
+      "size": 499,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a0b710bd8dbfd5bf6dae66c1ca410a8fad4ba7f3"
+    },
+    {
+      "path": "cores/arduino/itoa.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb370db4df49fde55a6717f6eb6a75d19c0f1486",
+      "size": 1541,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/cb370db4df49fde55a6717f6eb6a75d19c0f1486"
+    },
+    {
+      "path": "cores/arduino/llext_wrappers.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ea6249399816bb6040b76cbaca7cddad7484854",
+      "size": 11798,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/0ea6249399816bb6040b76cbaca7cddad7484854"
+    },
+    {
+      "path": "cores/arduino/main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daa82b277f2cbf4cf153fecb97dbc144d03751e8",
+      "size": 2515,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/daa82b277f2cbf4cf153fecb97dbc144d03751e8"
+    },
+    {
+      "path": "cores/arduino/new",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71b327da4e6062bd4d58cbf36a9435b72747d61a",
+      "size": 2128,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/71b327da4e6062bd4d58cbf36a9435b72747d61a"
+    },
+    {
+      "path": "cores/arduino/new.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9b1610de23613188869be0b52780f88d5823f7c",
+      "size": 3981,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a9b1610de23613188869be0b52780f88d5823f7c"
+    },
+    {
+      "path": "cores/arduino/new.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ae65c744b957abf9c90873ea1db51eaac11a47d",
+      "size": 264,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9ae65c744b957abf9c90873ea1db51eaac11a47d"
+    },
+    {
+      "path": "cores/arduino/overloads.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f7aab17a9ed6d9d1fd81b4f43bd9334352a5c2a",
+      "size": 437,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7f7aab17a9ed6d9d1fd81b4f43bd9334352a5c2a"
+    },
+    {
+      "path": "cores/arduino/pins_arduino.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "707f73e1b72adcbec383badac1f0b4b15e0c53b5",
+      "size": 162,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/707f73e1b72adcbec383badac1f0b4b15e0c53b5"
+    },
+    {
+      "path": "cores/arduino/threads.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e8fb124c5b3d049d8a43b807fae1320cbacce82",
+      "size": 984,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/5e8fb124c5b3d049d8a43b807fae1320cbacce82"
+    },
+    {
+      "path": "cores/arduino/time_macros.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4be801b5e3e0c9f7187b687f1b9abe2c1957c3b9",
+      "size": 380,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/4be801b5e3e0c9f7187b687f1b9abe2c1957c3b9"
+    },
+    {
+      "path": "cores/arduino/usb_device_descriptor.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afddf44e6dd403012a04c7ed909c408e6eaacfa7",
+      "size": 5042,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/afddf44e6dd403012a04c7ed909c408e6eaacfa7"
+    },
+    {
+      "path": "cores/arduino/wiring_analog.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c7d06b011a99f3781dfbb323144ef2bf32445a5",
+      "size": 7834,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/3c7d06b011a99f3781dfbb323144ef2bf32445a5"
+    },
+    {
+      "path": "cores/arduino/wiring_digital.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ad2daf2d05d2d41dffe64a10a6a3aa1f8d2de5a",
+      "size": 1462,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/1ad2daf2d05d2d41dffe64a10a6a3aa1f8d2de5a"
+    },
+    {
+      "path": "cores/arduino/wiring_private.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd01fa907779fb09b11cca82f48cf4bfb94bd7bd",
+      "size": 3158,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/fd01fa907779fb09b11cca82f48cf4bfb94bd7bd"
+    },
+    {
+      "path": "cores/arduino/wiring_pulse.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaa9171ae74bae698e1246bd554f68c8257c7b90",
+      "size": 1247,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/eaa9171ae74bae698e1246bd554f68c8257c7b90"
+    },
+    {
+      "path": "cores/arduino/wiring_shift.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f683126890a81cc668e3dd5d0253a80e321e8411",
+      "size": 1071,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f683126890a81cc668e3dd5d0253a80e321e8411"
+    },
+    {
+      "path": "cores/arduino/zephyrClockInit.hpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "108daf93d6ee0d665da03e9e491510dd3d1638cd",
+      "size": 796,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/108daf93d6ee0d665da03e9e491510dd3d1638cd"
+    },
+    {
+      "path": "cores/arduino/zephyrCommon.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff91aba572643b092f759aa50b309729afe0b53f",
+      "size": 790,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/ff91aba572643b092f759aa50b309729afe0b53f"
+    },
+    {
+      "path": "cores/arduino/zephyrPinctrl.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1500c5e027d2f66cd8dbf06ff51e0579f33aec1",
+      "size": 6247,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d1500c5e027d2f66cd8dbf06ff51e0579f33aec1"
+    },
+    {
+      "path": "cores/arduino/zephyrPinctrl.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c4226c20865bc9e2bc6633752c13377d775f54d",
+      "size": 881,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/5c4226c20865bc9e2bc6633752c13377d775f54d"
+    },
+    {
+      "path": "cores/arduino/zephyrSerial.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ab1c3f043aba1d9f5139b844ccf822eee73b62",
+      "size": 5294,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/84ab1c3f043aba1d9f5139b844ccf822eee73b62"
+    },
+    {
+      "path": "cores/arduino/zephyrSerial.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2a52c907369fc5ecf0fb5a3bdf1a78a9e3f6bb3",
+      "size": 6377,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e2a52c907369fc5ecf0fb5a3bdf1a78a9e3f6bb3"
+    },
+    {
+      "path": "doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8590f9746c70bb94052ed9e0819022abe2bac327",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/8590f9746c70bb94052ed9e0819022abe2bac327"
+    },
+    {
+      "path": "doc/zephyr_logo.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a17464beff00584f1cae6ba5da4485fc4beef835",
+      "size": 33636,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a17464beff00584f1cae6ba5da4485fc4beef835"
+    },
+    {
+      "path": "documentation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0fb7039acc9fc6283efa7d6634bc9ae6bd9de0b8",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/0fb7039acc9fc6283efa7d6634bc9ae6bd9de0b8"
+    },
+    {
+      "path": "documentation/arduino_libs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "779161598188d7ed2cf9e4b046ae7dfca1fcb01d",
+      "size": 927,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/779161598188d7ed2cf9e4b046ae7dfca1fcb01d"
+    },
+    {
+      "path": "documentation/dynamic_pinmux.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "993057f914d76ecf0c8baee85368aa9107f9cce5",
+      "size": 8279,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/993057f914d76ecf0c8baee85368aa9107f9cce5"
+    },
+    {
+      "path": "documentation/variants.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5ff6e6054a4bee4a8fea423343d3624583db61",
+      "size": 7294,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/5f5ff6e6054a4bee4a8fea423343d3624583db61"
+    },
+    {
+      "path": "dts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70703c7b1ce2f7141ba7bc2be258e334a0bfe222",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/70703c7b1ce2f7141ba7bc2be258e334a0bfe222"
+    },
+    {
+      "path": "dts/bindings",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dcd9ac1765156ae0f4c811b98b2f131b602cbfd4",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/dcd9ac1765156ae0f4c811b98b2f131b602cbfd4"
+    },
+    {
+      "path": "dts/bindings/video",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49c1d0acc219e6d91d30e3d740d04606435428f6",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/49c1d0acc219e6d91d30e3d740d04606435428f6"
+    },
+    {
+      "path": "dts/bindings/video/analogix,anx7625.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efb282ff016376fe17ddad4187833787739d8c15",
+      "size": 659,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/efb282ff016376fe17ddad4187833787739d8c15"
+    },
+    {
+      "path": "extra",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c92c33d3756cd82664e4cfb7a747611505a26e1",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/7c92c33d3756cd82664e4cfb7a747611505a26e1"
+    },
+    {
+      "path": "extra/artifacts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "45f8bc22013552fdf63b623c96b2a893bcbdc879",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/45f8bc22013552fdf63b623c96b2a893bcbdc879"
+    },
+    {
+      "path": "extra/artifacts/_common.exc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8167e71836da7511f1dcfa87f7a7b9c54a36231",
+      "size": 408,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e8167e71836da7511f1dcfa87f7a7b9c54a36231"
+    },
+    {
+      "path": "extra/artifacts/_common.inc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd45a2e9cb65ea13308b5f9d1864be0e051f09a3",
+      "size": 590,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/bd45a2e9cb65ea13308b5f9d1864be0e051f09a3"
+    },
+    {
+      "path": "extra/artifacts/_common.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4f3e8542874824f4a43e4cba5a0fd311db1db06",
+      "size": 1595,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d4f3e8542874824f4a43e4cba5a0fd311db1db06"
+    },
+    {
+      "path": "extra/artifacts/_common.test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a03e04c968f99f4579c4969b26440c19f13d28f7",
+      "size": 1121,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a03e04c968f99f4579c4969b26440c19f13d28f7"
+    },
+    {
+      "path": "extra/artifacts/zephyr_contrib.exc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e5d508ee6b188853523cabfbd9724f59849a127",
+      "size": 269,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/0e5d508ee6b188853523cabfbd9724f59849a127"
+    },
+    {
+      "path": "extra/artifacts/zephyr_contrib.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58fb1bc85d5f94d3c185564ee848f07d8ce768bb",
+      "size": 105,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/58fb1bc85d5f94d3c185564ee848f07d8ce768bb"
+    },
+    {
+      "path": "extra/artifacts/zephyr_contrib.test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f32f136019852bc6bda27d8ee14bdc449932cb26",
+      "size": 623,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f32f136019852bc6bda27d8ee14bdc449932cb26"
+    },
+    {
+      "path": "extra/artifacts/zephyr_main.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c15f125c16bbe856379ba660e43f1995d5e1722",
+      "size": 96,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/6c15f125c16bbe856379ba660e43f1995d5e1722"
+    },
+    {
+      "path": "extra/artifacts/zephyr_main.only",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcc0343738dda37cf43d14f69422327b919a6313",
+      "size": 226,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/fcc0343738dda37cf43d14f69422327b919a6313"
+    },
+    {
+      "path": "extra/artifacts/zephyr_main.test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5bd4db7178ccaa32fae6be8cc04616a61b9487c",
+      "size": 771,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a5bd4db7178ccaa32fae6be8cc04616a61b9487c"
+    },
+    {
+      "path": "extra/artifacts/zephyr_unoq.exc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84f350e1a6eff26d25f0f5303cdd16c48ec22f79",
+      "size": 305,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/84f350e1a6eff26d25f0f5303cdd16c48ec22f79"
+    },
+    {
+      "path": "extra/artifacts/zephyr_unoq.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0f6ba6649ff729bb714a4023c546258fd2abcfb",
+      "size": 420,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b0f6ba6649ff729bb714a4023c546258fd2abcfb"
+    },
+    {
+      "path": "extra/artifacts/zephyr_unoq.only",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a5ab601ce7887e9ddc92100c0508fcde4b9f0f4",
+      "size": 337,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/6a5ab601ce7887e9ddc92100c0508fcde4b9f0f4"
+    },
+    {
+      "path": "extra/bootstrap.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f9ccde109732101f56d94e808147a0c2804dc2fe",
+      "size": 2847,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f9ccde109732101f56d94e808147a0c2804dc2fe"
+    },
+    {
+      "path": "extra/build.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "43c3b54e002d64f064a666023db55931dc8eeaa7",
+      "size": 8346,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/43c3b54e002d64f064a666023db55931dc8eeaa7"
+    },
+    {
+      "path": "extra/build_all.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "70ddf5c1f2ec690bac9a310ea96c24d6701fb537",
+      "size": 1701,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/70ddf5c1f2ec690bac9a310ea96c24d6701fb537"
+    },
+    {
+      "path": "extra/ci_apply_tests.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "55cb2212a07e0c6f3f0ace4855f1d1f1965ee90c",
+      "size": 4003,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/55cb2212a07e0c6f3f0ace4855f1d1f1965ee90c"
+    },
+    {
+      "path": "extra/ci_calc_size_reports.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8bb71e8cc3ea6a7bdb3e2d970e917df0a952772f",
+      "size": 10235,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8bb71e8cc3ea6a7bdb3e2d970e917df0a952772f"
+    },
+    {
+      "path": "extra/ci_collect_data.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "321eb287e06aca313652a5d8e04df6476b799010",
+      "size": 9120,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/321eb287e06aca313652a5d8e04df6476b799010"
+    },
+    {
+      "path": "extra/ci_dependabot_config.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6df6b73dfdc87723a6d290e9bba67357bc723fe3",
+      "size": 657,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/6df6b73dfdc87723a6d290e9bba67357bc723fe3"
+    },
+    {
+      "path": "extra/ci_fetch_tests.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "41da41c398d8871391e4405f36fa649f962bd15c",
+      "size": 2302,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/41da41c398d8871391e4405f36fa649f962bd15c"
+    },
+    {
+      "path": "extra/ci_generate_report.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0ba7f1a140c39e61219ae90a76dfcc18c4ea0a85",
+      "size": 19669,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/0ba7f1a140c39e61219ae90a76dfcc18c4ea0a85"
+    },
+    {
+      "path": "extra/ci_license_checks.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "18af65feacec8e954a35e0de71cf190a5dc8e0a6",
+      "size": 3549,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/18af65feacec8e954a35e0de71cf190a5dc8e0a6"
+    },
+    {
+      "path": "extra/ci_shared.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c65c50e3d3377e762d483cc67ea11a28490bd46",
+      "size": 8118,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9c65c50e3d3377e762d483cc67ea11a28490bd46"
+    },
+    {
+      "path": "extra/debug.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44a35aff96958290c79ebebd816c6afb0cabc357",
+      "size": 777,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/44a35aff96958290c79ebebd816c6afb0cabc357"
+    },
+    {
+      "path": "extra/gen_arduino_files.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f438488f0d10db1370b33a4d7b8d221c50afd3d",
+      "size": 2579,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8f438488f0d10db1370b33a4d7b8d221c50afd3d"
+    },
+    {
+      "path": "extra/gen_package_index_json.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d2d521c1d77f6b3c1c995422f9ef678a0d997a7a",
+      "size": 1191,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d2d521c1d77f6b3c1c995422f9ef678a0d997a7a"
+    },
+    {
+      "path": "extra/gen_provides.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "47a303312090626f27e7cf399be1b9a92618af36",
+      "size": 11107,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/47a303312090626f27e7cf399be1b9a92618af36"
+    },
+    {
+      "path": "extra/get_board_details.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a70d8b8b0239e5308074db0fdd01f7f562e075e8",
+      "size": 1537,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a70d8b8b0239e5308074db0fdd01f7f562e075e8"
+    },
+    {
+      "path": "extra/get_core_version.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a914a61a12f50326952bda628b5067d5cec77927",
+      "size": 5439,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a914a61a12f50326952bda628b5067d5cec77927"
+    },
+    {
+      "path": "extra/get_variant_name.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67007c976975e7a6f879a2bcb82edd84ab4a2787",
+      "size": 351,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/67007c976975e7a6f879a2bcb82edd84ab4a2787"
+    },
+    {
+      "path": "extra/get_variant_name.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "27eeea30ef9653e51593a55abae914d0bf21ae27",
+      "size": 332,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/27eeea30ef9653e51593a55abae914d0bf21ae27"
+    },
+    {
+      "path": "extra/gh-pr-url.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5b70dfd4776d5a28fbc41a1d0cf6def51c960125",
+      "size": 1327,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/5b70dfd4776d5a28fbc41a1d0cf6def51c960125"
+    },
+    {
+      "path": "extra/package_core.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "77b4314801ca5863c51d06c5d0f6a1915f42fa7b",
+      "size": 3622,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/77b4314801ca5863c51d06c5d0f6a1915f42fa7b"
+    },
+    {
+      "path": "extra/package_tool.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ed3126a36f8bf229dc5e212a2282b3827d23134f",
+      "size": 2169,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/ed3126a36f8bf229dc5e212a2282b3827d23134f"
+    },
+    {
+      "path": "extra/policies.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d7a38c6998bcb232b01a4f4ef4064eecc512d6",
+      "size": 720,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/25d7a38c6998bcb232b01a4f4ef4064eecc512d6"
+    },
+    {
+      "path": "libraries",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0cb75db0efa75a195a6f20e76f3e58b610b0ed9",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/c0cb75db0efa75a195a6f20e76f3e58b610b0ed9"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2fe4f38c1b873399a39a2d74b635ac25b1ac0dc3",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/2fe4f38c1b873399a39a2d74b635ac25b1ac0dc3"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c070d32e9cba78046a980f3e9f15f042cc8cab7",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/2c070d32e9cba78046a980f3e9f15f042cc8cab7"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/examples/Basic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7af40769c227d1c03ecb13978f8a5985aef983f6",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/7af40769c227d1c03ecb13978f8a5985aef983f6"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/examples/Basic/Basic.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3444c0f3c96ffcb75d7e183b07059d9325fe5b62",
+      "size": 2050,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/3444c0f3c96ffcb75d7e183b07059d9325fe5b62"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/examples/Reflash_Bootanimation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae9c648daff49c17ce7f2eb2bfd4bcb65b44ee97",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/ae9c648daff49c17ce7f2eb2bfd4bcb65b44ee97"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/examples/Reflash_Bootanimation/Reflash_Bootanimation.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d00040f6bae6a261f4d1cdc19b397ae1f017aa4f",
+      "size": 1607,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d00040f6bae6a261f4d1cdc19b397ae1f017aa4f"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/examples/Reflash_Bootanimation/bootanimation.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f9e89375d6653cc2e0ef995de1d4b8be31546b4",
+      "size": 132909,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/4f9e89375d6653cc2e0ef995de1d4b8be31546b4"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/examples/Video",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d4699b7eb6ca1d7cdb00c3a5491e17b23cf39f3",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/2d4699b7eb6ca1d7cdb00c3a5491e17b23cf39f3"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/examples/Video/Video.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a72bd7a23e93264cc6f66cc51ba8988630ad7850",
+      "size": 211,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a72bd7a23e93264cc6f66cc51ba8988630ad7850"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/examples/Video/bad_apple.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c080fce8dc6f0a0e1d6db9aa0fcebc26ed6d63e",
+      "size": 454033,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9c080fce8dc6f0a0e1d6db9aa0fcebc26ed6d63e"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f25f4365ec5f6b238bec7ad28c7231852063e32b",
+      "size": 345,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f25f4365ec5f6b238bec7ad28c7231852063e32b"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ceaa11b86d3e144495dfe257d127b785a9e73bd",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/1ceaa11b86d3e144495dfe257d127b785a9e73bd"
+    },
+    {
+      "path": "libraries/Arduino_LED_Matrix/src/Arduino_LED_Matrix.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b7a2c08379a168ee0a87fa19e7f3dd160c0c80c",
+      "size": 7155,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/1b7a2c08379a168ee0a87fa19e7f3dd160c0c80c"
+    },
+    {
+      "path": "libraries/CAN",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8cdd493155ed9e5f3782db9e0bc4ff4c7f9955d7",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/8cdd493155ed9e5f3782db9e0bc4ff4c7f9955d7"
+    },
+    {
+      "path": "libraries/CAN/CAN.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ca4bd2265861f95cbdc2655abaf9c504d71e526",
+      "size": 9882,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/4ca4bd2265861f95cbdc2655abaf9c504d71e526"
+    },
+    {
+      "path": "libraries/CAN/CAN.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8f392ff8070e895652d10a039403ebe55753ce4",
+      "size": 6265,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/c8f392ff8070e895652d10a039403ebe55753ce4"
+    },
+    {
+      "path": "libraries/CAN/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8926a957f51023d7a086dfafa9749923ca3b4a8",
+      "size": 153,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d8926a957f51023d7a086dfafa9749923ca3b4a8"
+    },
+    {
+      "path": "libraries/CAN/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0509d4683ae78a94341360d2089f7b976f57fe14",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/0509d4683ae78a94341360d2089f7b976f57fe14"
+    },
+    {
+      "path": "libraries/CAN/examples/CANEvent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc0562c9bed8bc316722b583c8e1cb4e395b36ad",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/bc0562c9bed8bc316722b583c8e1cb4e395b36ad"
+    },
+    {
+      "path": "libraries/CAN/examples/CANEvent/CANEvent.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3e73318fee6d1af7c1c83c348fb7525d6727b3a",
+      "size": 1911,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a3e73318fee6d1af7c1c83c348fb7525d6727b3a"
+    },
+    {
+      "path": "libraries/CAN/examples/CANRead",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8aa50019fedd6811ec6dee58fe0bd332b19b0445",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/8aa50019fedd6811ec6dee58fe0bd332b19b0445"
+    },
+    {
+      "path": "libraries/CAN/examples/CANRead/CANRead.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b88f73879c9b80c68b76451ae1edae696faa1fca",
+      "size": 950,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b88f73879c9b80c68b76451ae1edae696faa1fca"
+    },
+    {
+      "path": "libraries/CAN/examples/CANWrite",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d98d081014f6ada070d1b2d4849018579062c2ae",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/d98d081014f6ada070d1b2d4849018579062c2ae"
+    },
+    {
+      "path": "libraries/CAN/examples/CANWrite/CANWrite.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11be4a9bc8aeb48ea28dffe189c996675cd65ac0",
+      "size": 1711,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/11be4a9bc8aeb48ea28dffe189c996675cd65ac0"
+    },
+    {
+      "path": "libraries/CAN/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5156d84ae038d445f067fcbf01229c0cdec0bae0",
+      "size": 393,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/5156d84ae038d445f067fcbf01229c0cdec0bae0"
+    },
+    {
+      "path": "libraries/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf2c212802a01eb8793fd273cf65cf84dd73a26c",
+      "size": 106,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/bf2c212802a01eb8793fd273cf65cf84dd73a26c"
+    },
+    {
+      "path": "libraries/Camera",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cd84c9a8b8477bf09ad34c2e9f481bb73f6f76d8",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/cd84c9a8b8477bf09ad34c2e9f481bb73f6f76d8"
+    },
+    {
+      "path": "libraries/Camera/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8316af35540892194ae459bfd5162fc03d4a3362",
+      "size": 292,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8316af35540892194ae459bfd5162fc03d4a3362"
+    },
+    {
+      "path": "libraries/Camera/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a1e1704ea129100f21538724bd694f596102329",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/7a1e1704ea129100f21538724bd694f596102329"
+    },
+    {
+      "path": "libraries/Camera/examples/CameraCaptureRawBytes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee95292dfda55ed8b5b6820b9e05396f142e1705",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/ee95292dfda55ed8b5b6820b9e05396f142e1705"
+    },
+    {
+      "path": "libraries/Camera/examples/CameraCaptureRawBytes/CameraCaptureRawBytes.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fca2252ad86d48b7d2ae12a2f56967214f441ed9",
+      "size": 645,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/fca2252ad86d48b7d2ae12a2f56967214f441ed9"
+    },
+    {
+      "path": "libraries/Camera/extras",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f89ffffaca9789d849b905141f9d39a189019f4",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/9f89ffffaca9789d849b905141f9d39a189019f4"
+    },
+    {
+      "path": "libraries/Camera/extras/CameraRawBytesVisualizer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d3755a83f9ea6517e133d34f24296c5f57b317e3",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/d3755a83f9ea6517e133d34f24296c5f57b317e3"
+    },
+    {
+      "path": "libraries/Camera/extras/CameraRawBytesVisualizer/CameraRawBytesVisualizer.pde",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcb2570b4d6ceebf9af8a4fa4909ab0ee932100a",
+      "size": 3524,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/dcb2570b4d6ceebf9af8a4fa4909ab0ee932100a"
+    },
+    {
+      "path": "libraries/Camera/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "540960249e6eb54277f95d8cac40c181117e8ecc",
+      "size": 423,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/540960249e6eb54277f95d8cac40c181117e8ecc"
+    },
+    {
+      "path": "libraries/Camera/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb0a7ee999ff90ec2a57abbe9b80de99d9a91466",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/fb0a7ee999ff90ec2a57abbe9b80de99d9a91466"
+    },
+    {
+      "path": "libraries/Camera/src/camera.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54db327a78f271b729ac050a4bd97b8ffe5e1fba",
+      "size": 7888,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/54db327a78f271b729ac050a4bd97b8ffe5e1fba"
+    },
+    {
+      "path": "libraries/Camera/src/camera.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4592c05f744af58007184fd9f396dc05936c957f",
+      "size": 3605,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/4592c05f744af58007184fd9f396dc05936c957f"
+    },
+    {
+      "path": "libraries/Ethernet",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0963b677aabf1dbc10c5a180d63086fce44393d3",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/0963b677aabf1dbc10c5a180d63086fce44393d3"
+    },
+    {
+      "path": "libraries/Ethernet/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "339460f9455195f65a75d363e69f022aae58188b",
+      "size": 309,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/339460f9455195f65a75d363e69f022aae58188b"
+    },
+    {
+      "path": "libraries/Ethernet/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d96e02180048bd5bea92bcfd7df66a7c7720b39e",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/d96e02180048bd5bea92bcfd7df66a7c7720b39e"
+    },
+    {
+      "path": "libraries/Ethernet/examples/AdvancedChatServer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fffc4b7261b5b5ca4a26e26ca4958984cf390ce",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/1fffc4b7261b5b5ca4a26e26ca4958984cf390ce"
+    },
+    {
+      "path": "libraries/Ethernet/examples/AdvancedChatServer/AdvancedChatServer.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fd26eafecb8987845e382e32415379a3743cc00",
+      "size": 3543,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2fd26eafecb8987845e382e32415379a3743cc00"
+    },
+    {
+      "path": "libraries/Ethernet/examples/LinkStatus",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44190a12289bfc0d568dbc05857d69d9d492a329",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/44190a12289bfc0d568dbc05857d69d9d492a329"
+    },
+    {
+      "path": "libraries/Ethernet/examples/LinkStatus/LinkStatus.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a38e005d243224c20128ad1850e0062360501be5",
+      "size": 516,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a38e005d243224c20128ad1850e0062360501be5"
+    },
+    {
+      "path": "libraries/Ethernet/examples/TelnetClient",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b4bb1a1be020a339f2babea731a5916da82ffb5",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/1b4bb1a1be020a339f2babea731a5916da82ffb5"
+    },
+    {
+      "path": "libraries/Ethernet/examples/TelnetClient/TelnetClient.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83374495afdbeb31f84c064ec46d119eba1c88b3",
+      "size": 2553,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/83374495afdbeb31f84c064ec46d119eba1c88b3"
+    },
+    {
+      "path": "libraries/Ethernet/examples/UDPSendReceiveString",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "096bdf53fd2bf217e6c87a334ce8819c3f000c86",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/096bdf53fd2bf217e6c87a334ce8819c3f000c86"
+    },
+    {
+      "path": "libraries/Ethernet/examples/UDPSendReceiveString/UDPSendReceiveString.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c675e71a60819f18d2a0a0d2d743b63f8c3c212e",
+      "size": 3430,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/c675e71a60819f18d2a0a0d2d743b63f8c3c212e"
+    },
+    {
+      "path": "libraries/Ethernet/examples/UdpNtpClient",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d3934dee63635621daa574276666159dd3980143",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/d3934dee63635621daa574276666159dd3980143"
+    },
+    {
+      "path": "libraries/Ethernet/examples/UdpNtpClient/UdpNtpClient.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b93f2f5832b1ea87725860441eadd22a8442663",
+      "size": 4532,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/4b93f2f5832b1ea87725860441eadd22a8442663"
+    },
+    {
+      "path": "libraries/Ethernet/examples/WebClient",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9582a03f43ac1b89744a62959c1cce7218f3c3c8",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/9582a03f43ac1b89744a62959c1cce7218f3c3c8"
+    },
+    {
+      "path": "libraries/Ethernet/examples/WebClient/WebClient.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d62e7d8ddc51b3c1456084b314db78fd9d6157c7",
+      "size": 3879,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d62e7d8ddc51b3c1456084b314db78fd9d6157c7"
+    },
+    {
+      "path": "libraries/Ethernet/examples/WebClientRepeating",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f7811e1bcc9d7cd75e05c4d51b5e64c08ecb01c",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/9f7811e1bcc9d7cd75e05c4d51b5e64c08ecb01c"
+    },
+    {
+      "path": "libraries/Ethernet/examples/WebClientRepeating/WebClientRepeating.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d41b926dde47caef0cd7186e413d8c3af05e3f22",
+      "size": 3387,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d41b926dde47caef0cd7186e413d8c3af05e3f22"
+    },
+    {
+      "path": "libraries/Ethernet/examples/WebServer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e150174f1896c8912bb169016141329bfcfd7ba",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/6e150174f1896c8912bb169016141329bfcfd7ba"
+    },
+    {
+      "path": "libraries/Ethernet/examples/WebServer/WebServer.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412f72c376cfa3ed2ae453834b30db0f6f1bab47",
+      "size": 3569,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/412f72c376cfa3ed2ae453834b30db0f6f1bab47"
+    },
+    {
+      "path": "libraries/Ethernet/keywords.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c4ed937a439667fe8e6fb420ac758b9f051bd3c",
+      "size": 1456,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/3c4ed937a439667fe8e6fb420ac758b9f051bd3c"
+    },
+    {
+      "path": "libraries/Ethernet/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b77a843fc2af2e89f5764e977dea2a1d11c6457a",
+      "size": 529,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b77a843fc2af2e89f5764e977dea2a1d11c6457a"
+    },
+    {
+      "path": "libraries/Ethernet/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5b2d6a2fff44a028e6630020ee0e314bf218abd",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/e5b2d6a2fff44a028e6630020ee0e314bf218abd"
+    },
+    {
+      "path": "libraries/Ethernet/src/Ethernet.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f40da3efb78558811305d2229aa8f466f7e8c28",
+      "size": 3115,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2f40da3efb78558811305d2229aa8f466f7e8c28"
+    },
+    {
+      "path": "libraries/Ethernet/src/Ethernet.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2302c96570a800b45027455c553da0dd0df0d054",
+      "size": 1649,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2302c96570a800b45027455c553da0dd0df0d054"
+    },
+    {
+      "path": "libraries/Ethernet/src/EthernetUdp.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7396f53a36aac94e240fa6064fba268eb28d263d",
+      "size": 240,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7396f53a36aac94e240fa6064fba268eb28d263d"
+    },
+    {
+      "path": "libraries/Ethernet/src/ZephyrEthernet.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed0b156bc4cc383fa415b6ca3410e9885ed5077f",
+      "size": 157,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/ed0b156bc4cc383fa415b6ca3410e9885ed5077f"
+    },
+    {
+      "path": "libraries/Ethernet/src/Zephyr_Ethernet.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4ed288206e8e18ef5b0740a5bf410d8b20852ea",
+      "size": 175,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/c4ed288206e8e18ef5b0740a5bf410d8b20852ea"
+    },
+    {
+      "path": "libraries/PDM",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a6fbc1050def8ef1819827123ba315d7feb5d3b7",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/a6fbc1050def8ef1819827123ba315d7feb5d3b7"
+    },
+    {
+      "path": "libraries/PDM/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "432ee2691beb92cd07f50755e3f8a73539e76e4d",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/432ee2691beb92cd07f50755e3f8a73539e76e4d"
+    },
+    {
+      "path": "libraries/PDM/examples/PDMCaptureRawBytes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e334811be5e44fba2bd2672dc21566628baeadb",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/3e334811be5e44fba2bd2672dc21566628baeadb"
+    },
+    {
+      "path": "libraries/PDM/examples/PDMCaptureRawBytes/PDMCaptureRawBytes.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e67ee8551104a4fc60b32c993d464a961a57f51",
+      "size": 2172,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/4e67ee8551104a4fc60b32c993d464a961a57f51"
+    },
+    {
+      "path": "libraries/PDM/examples/PDMSerialPlotter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "205ea24833d907a4b75882e60d2720d29f57f307",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/205ea24833d907a4b75882e60d2720d29f57f307"
+    },
+    {
+      "path": "libraries/PDM/examples/PDMSerialPlotter/PDMSerialPlotter.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a24840456168916cfbf0b223d20fcb28af38a4c",
+      "size": 1843,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2a24840456168916cfbf0b223d20fcb28af38a4c"
+    },
+    {
+      "path": "libraries/PDM/extras",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88b975ff66fb00983d4bccf7171ae3ee55552b48",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/88b975ff66fb00983d4bccf7171ae3ee55552b48"
+    },
+    {
+      "path": "libraries/PDM/extras/PDMSerialAudioRecorder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cfd24bb64918191edb49f39fbe8d277d82487eb7",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/cfd24bb64918191edb49f39fbe8d277d82487eb7"
+    },
+    {
+      "path": "libraries/PDM/extras/PDMSerialAudioRecorder/PDMSerialAudioRecorder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c71b4d28fdb363b75bbc981f86dc928f3777788",
+      "size": 1959,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7c71b4d28fdb363b75bbc981f86dc928f3777788"
+    },
+    {
+      "path": "libraries/PDM/keywords.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e86d15cd11e030c1dce98273fd661cac81ab29ec",
+      "size": 567,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e86d15cd11e030c1dce98273fd661cac81ab29ec"
+    },
+    {
+      "path": "libraries/PDM/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62d17f68d36dbe01c28d7b75481ec07118c126dc",
+      "size": 390,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/62d17f68d36dbe01c28d7b75481ec07118c126dc"
+    },
+    {
+      "path": "libraries/PDM/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c453fc6fdadca76bb5cd89fc95375f6f29029de",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/0c453fc6fdadca76bb5cd89fc95375f6f29029de"
+    },
+    {
+      "path": "libraries/PDM/src/PDM.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "361fe08b6e3c318706f541297f91a278ffa35aa0",
+      "size": 8325,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/361fe08b6e3c318706f541297f91a278ffa35aa0"
+    },
+    {
+      "path": "libraries/PDM/src/PDM.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f597f2805ab57c3fc2fa6061e944aae49932b014",
+      "size": 982,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f597f2805ab57c3fc2fa6061e944aae49932b014"
+    },
+    {
+      "path": "libraries/PDM/src/PDMConfig.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d4038013dd4fea23e6a77439520c327b98a66ef",
+      "size": 1497,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9d4038013dd4fea23e6a77439520c327b98a66ef"
+    },
+    {
+      "path": "libraries/RTC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f486964558c12d1ded13d5751b4a32404e491568",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/f486964558c12d1ded13d5751b4a32404e491568"
+    },
+    {
+      "path": "libraries/RTC/RTC.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27414bfd7c1c8e962c0f3c6c4a6179956519caa4",
+      "size": 23118,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/27414bfd7c1c8e962c0f3c6c4a6179956519caa4"
+    },
+    {
+      "path": "libraries/RTC/RTC.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b175d7d9267c97e8b0fc2f9ca28185fe6b30ef1",
+      "size": 11054,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/3b175d7d9267c97e8b0fc2f9ca28185fe6b30ef1"
+    },
+    {
+      "path": "libraries/RTC/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7925f79989c0c8dc3d0d2d15c6ebaa8c1790050",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/c7925f79989c0c8dc3d0d2d15c6ebaa8c1790050"
+    },
+    {
+      "path": "libraries/RTC/examples/AlarmRTC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a2828e5aa4c2f7bb7da0ab1e31fca5e45031045",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/4a2828e5aa4c2f7bb7da0ab1e31fca5e45031045"
+    },
+    {
+      "path": "libraries/RTC/examples/AlarmRTC/AlarmRTC.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4fe6bbfc76873702d18727f0223b7cbcd0d1a0e",
+      "size": 2500,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a4fe6bbfc76873702d18727f0223b7cbcd0d1a0e"
+    },
+    {
+      "path": "libraries/RTC/examples/CalibrationRTC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2edfcf94905970080f1b606d28e60ffe8cd90c18",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/2edfcf94905970080f1b606d28e60ffe8cd90c18"
+    },
+    {
+      "path": "libraries/RTC/examples/CalibrationRTC/CalibrationRTC.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13cdb67db21e46650e97dc86d4aa9ba2705987ea",
+      "size": 1163,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/13cdb67db21e46650e97dc86d4aa9ba2705987ea"
+    },
+    {
+      "path": "libraries/RTC/examples/SimpleRTC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f2c69d4f3ea9af3e548ca97221515c6f3f27d55",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/0f2c69d4f3ea9af3e548ca97221515c6f3f27d55"
+    },
+    {
+      "path": "libraries/RTC/examples/SimpleRTC/SimpleRTC.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78bb5fa47d3397b411145d834a27392f9dcac13d",
+      "size": 993,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/78bb5fa47d3397b411145d834a27392f9dcac13d"
+    },
+    {
+      "path": "libraries/RTC/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39639cd42d86646e1d40328bf0a43a53b618e7c9",
+      "size": 443,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/39639cd42d86646e1d40328bf0a43a53b618e7c9"
+    },
+    {
+      "path": "libraries/SPI",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9fb9513d97064fb9671ff181cab1b91a9ecc51d1",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/9fb9513d97064fb9671ff181cab1b91a9ecc51d1"
+    },
+    {
+      "path": "libraries/SPI/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3ce7538ff6591c17fe76332e13612cb47782779",
+      "size": 154,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d3ce7538ff6591c17fe76332e13612cb47782779"
+    },
+    {
+      "path": "libraries/SPI/SPI.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73eb3ad5ccbf88119de05737eb4e2f195ceee57b",
+      "size": 4323,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/73eb3ad5ccbf88119de05737eb4e2f195ceee57b"
+    },
+    {
+      "path": "libraries/SPI/SPI.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c151c1347525938b9868361f9548214a937b617",
+      "size": 2655,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8c151c1347525938b9868361f9548214a937b617"
+    },
+    {
+      "path": "libraries/SPI/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a972dd81c804b694c0c2b1ef91925d23f126261e",
+      "size": 593,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a972dd81c804b694c0c2b1ef91925d23f126261e"
+    },
+    {
+      "path": "libraries/SocketWrapper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d354fc4ed4defe1bf8e01c6137a5eb2615f116f",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/9d354fc4ed4defe1bf8e01c6137a5eb2615f116f"
+    },
+    {
+      "path": "libraries/SocketWrapper/SocketHelpers.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3116fc669fba77a87016d1f6b74b1ed05e7df89",
+      "size": 5004,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d3116fc669fba77a87016d1f6b74b1ed05e7df89"
+    },
+    {
+      "path": "libraries/SocketWrapper/SocketHelpers.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25ca8df02f6258a4fd4068f42b8cd392cb2667e2",
+      "size": 1410,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/25ca8df02f6258a4fd4068f42b8cd392cb2667e2"
+    },
+    {
+      "path": "libraries/SocketWrapper/SocketWrapper.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c4adc234b84a6f9921c934e54b4aef162a64dab",
+      "size": 9210,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/5c4adc234b84a6f9921c934e54b4aef162a64dab"
+    },
+    {
+      "path": "libraries/SocketWrapper/ZephyrClient.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "332fec8ad0c83ee20a0692ba5178092c3e2df9ef",
+      "size": 2165,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/332fec8ad0c83ee20a0692ba5178092c3e2df9ef"
+    },
+    {
+      "path": "libraries/SocketWrapper/ZephyrSSLClient.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa39d56527f1081f20b34c61f02ed3d23f9c5c55",
+      "size": 1114,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/aa39d56527f1081f20b34c61f02ed3d23f9c5c55"
+    },
+    {
+      "path": "libraries/SocketWrapper/ZephyrSSLClient.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67a1bc6a6eed54850f262b659e60cb18d39ceb25",
+      "size": 1107,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/67a1bc6a6eed54850f262b659e60cb18d39ceb25"
+    },
+    {
+      "path": "libraries/SocketWrapper/ZephyrServer.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5a9572f40760f67ea7733cea4c9b6b7b384d73f",
+      "size": 1251,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f5a9572f40760f67ea7733cea4c9b6b7b384d73f"
+    },
+    {
+      "path": "libraries/SocketWrapper/ZephyrUDP.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9ed75b82e99c411716a82324d3f08960184057d",
+      "size": 7723,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b9ed75b82e99c411716a82324d3f08960184057d"
+    },
+    {
+      "path": "libraries/SocketWrapper/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c67967ad7b121edc1d0fe83728ca3ac86e918bb",
+      "size": 535,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/6c67967ad7b121edc1d0fe83728ca3ac86e918bb"
+    },
+    {
+      "path": "libraries/Storage",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a51bdb4dcc3d6f1fc3b37d869aeb5682abbbd3f3",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/a51bdb4dcc3d6f1fc3b37d869aeb5682abbbd3f3"
+    },
+    {
+      "path": "libraries/Storage/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "138729a6e8ba1dc513f546b907ceb7c8edbff51a",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/138729a6e8ba1dc513f546b907ceb7c8edbff51a"
+    },
+    {
+      "path": "libraries/Storage/examples/FlashFormat",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59244e6ebc63209ad844b42429fcc6883f71d3f1",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/59244e6ebc63209ad844b42429fcc6883f71d3f1"
+    },
+    {
+      "path": "libraries/Storage/examples/FlashFormat/4343WA1_bin.h",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "ad9f3e774bd85f44bed3218718f21ad700649ac0",
+      "size": 38,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/ad9f3e774bd85f44bed3218718f21ad700649ac0"
+    },
+    {
+      "path": "libraries/Storage/examples/FlashFormat/FlashFormat.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "699f20f5940575db45aa148daf8db71847fc81ff",
+      "size": 10148,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/699f20f5940575db45aa148daf8db71847fc81ff"
+    },
+    {
+      "path": "libraries/Storage/examples/FlashFormat/certificates.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbc656ca0d1d5575949552109056e34be547dabb",
+      "size": 130201,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/dbc656ca0d1d5575949552109056e34be547dabb"
+    },
+    {
+      "path": "libraries/Storage/examples/ListFiles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ba71762cc1230b8eff943eb140a2405180b9a5a",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/8ba71762cc1230b8eff943eb140a2405180b9a5a"
+    },
+    {
+      "path": "libraries/Storage/examples/ListFiles/ListFiles.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2ec6be3b1a076438702228052b1a6ec8f3223c3",
+      "size": 2902,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/c2ec6be3b1a076438702228052b1a6ec8f3223c3"
+    },
+    {
+      "path": "libraries/Storage/examples/PartitionInfo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f1159f27ce4019d5394f7728e74c72e1746d43b",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/2f1159f27ce4019d5394f7728e74c72e1746d43b"
+    },
+    {
+      "path": "libraries/Storage/examples/PartitionInfo/PartitionInfo.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51c45a26e763db81046b6e3d444b86d04ba6b09b",
+      "size": 3631,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/51c45a26e763db81046b6e3d444b86d04ba6b09b"
+    },
+    {
+      "path": "libraries/Storage/examples/SDListFiles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "503146340913629d8d4ef7921bab3782792566bf",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/503146340913629d8d4ef7921bab3782792566bf"
+    },
+    {
+      "path": "libraries/Storage/examples/SDListFiles/SDListFiles.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54152151491911081436882be8800231460a660d",
+      "size": 2337,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/54152151491911081436882be8800231460a660d"
+    },
+    {
+      "path": "libraries/Storage/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acff5acff70f775ae27e0fc10e4c2d5c999e0fee",
+      "size": 302,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/acff5acff70f775ae27e0fc10e4c2d5c999e0fee"
+    },
+    {
+      "path": "libraries/WiFi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00cd58ace21a8a6a4ce2502970393af5e14ad001",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/00cd58ace21a8a6a4ce2502970393af5e14ad001"
+    },
+    {
+      "path": "libraries/WiFi/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8da8809cb93b5f972624fae4ecda097ce027916",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/b8da8809cb93b5f972624fae4ecda097ce027916"
+    },
+    {
+      "path": "libraries/WiFi/examples/ScanNetworksAdvanced",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "240f93625d96b7cd2be277546aab0658f3273a74",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/240f93625d96b7cd2be277546aab0658f3273a74"
+    },
+    {
+      "path": "libraries/WiFi/examples/ScanNetworksAdvanced/ScanNetworksAdvanced.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "120cce23ad9dd5611c40b8e7e18a21eb0e6b4fe1",
+      "size": 2890,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/120cce23ad9dd5611c40b8e7e18a21eb0e6b4fe1"
+    },
+    {
+      "path": "libraries/WiFi/examples/SerialBridge",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83b6222b9afaea2e32a6047018017f205eb992c4",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/83b6222b9afaea2e32a6047018017f205eb992c4"
+    },
+    {
+      "path": "libraries/WiFi/examples/SerialBridge/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76defee4c5751920f64c7e78d7ae67a901bcb478",
+      "size": 2259,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/76defee4c5751920f64c7e78d7ae67a901bcb478"
+    },
+    {
+      "path": "libraries/WiFi/examples/SerialBridge/SerialBridge.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faa8f349eb30c915d91fef19e49333b555ed4107",
+      "size": 6013,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/faa8f349eb30c915d91fef19e49333b555ed4107"
+    },
+    {
+      "path": "libraries/WiFi/examples/WiFiWebClient",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06d01c97a964dbbb0705810918696b3598f459af",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/06d01c97a964dbbb0705810918696b3598f459af"
+    },
+    {
+      "path": "libraries/WiFi/examples/WiFiWebClient/WiFiWebClient.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c952c691c56be2fb903fcb33a35458e6857f279e",
+      "size": 3004,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/c952c691c56be2fb903fcb33a35458e6857f279e"
+    },
+    {
+      "path": "libraries/WiFi/examples/WiFiWebClient/arduino_secrets.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec5bbe7f17dccf48da050249bfa89447e7c4c17",
+      "size": 167,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/bec5bbe7f17dccf48da050249bfa89447e7c4c17"
+    },
+    {
+      "path": "libraries/WiFi/examples/WiFiWebClientTLS",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b0635455ee528bc53482b8ac09c1c15ab163647",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/3b0635455ee528bc53482b8ac09c1c15ab163647"
+    },
+    {
+      "path": "libraries/WiFi/examples/WiFiWebClientTLS/WiFiWebClientTLS.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5907d15812974b85cc366418998a952847d91da8",
+      "size": 4003,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/5907d15812974b85cc366418998a952847d91da8"
+    },
+    {
+      "path": "libraries/WiFi/examples/WiFiWebClientTLS/arduino_secrets.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec5bbe7f17dccf48da050249bfa89447e7c4c17",
+      "size": 167,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/bec5bbe7f17dccf48da050249bfa89447e7c4c17"
+    },
+    {
+      "path": "libraries/WiFi/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb7382ea6ad9fd3d77eb3c99838d4fe4278e9042",
+      "size": 338,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/eb7382ea6ad9fd3d77eb3c99838d4fe4278e9042"
+    },
+    {
+      "path": "libraries/WiFi/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3f7340f9650fdc2bafe5b962056ddb161902ff7",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/a3f7340f9650fdc2bafe5b962056ddb161902ff7"
+    },
+    {
+      "path": "libraries/WiFi/src/WiFi.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c75413827223d2646515a0767caa6730ef0e97b5",
+      "size": 10753,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/c75413827223d2646515a0767caa6730ef0e97b5"
+    },
+    {
+      "path": "libraries/WiFi/src/WiFi.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c117adef94cd19a4f4b1284134887b3151877529",
+      "size": 2678,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/c117adef94cd19a4f4b1284134887b3151877529"
+    },
+    {
+      "path": "libraries/WiFi/src/WiFiUdp.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d9ee08c946f81deb78ce4b5fed33c13e98045fe",
+      "size": 184,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/6d9ee08c946f81deb78ce4b5fed33c13e98045fe"
+    },
+    {
+      "path": "libraries/WiFi/src/utility",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "faad66c107c67135a38d54acd9d8800580a3adde",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/faad66c107c67135a38d54acd9d8800580a3adde"
+    },
+    {
+      "path": "libraries/WiFi/src/utility/wl_definitions.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "572ff9dfb95eec42ea57a2ab969be8529e28a23c",
+      "size": 2477,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/572ff9dfb95eec42ea57a2ab969be8529e28a23c"
+    },
+    {
+      "path": "libraries/Wire",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a270467b86fef60d694e1c66119a15c94190442",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/9a270467b86fef60d694e1c66119a15c94190442"
+    },
+    {
+      "path": "libraries/Wire/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "231608328072819b676c539c2d36a569e229caab",
+      "size": 139,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/231608328072819b676c539c2d36a569e229caab"
+    },
+    {
+      "path": "libraries/Wire/Wire.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "984907f9e09851e61f44d920e419cd8ba3657a43",
+      "size": 7783,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/984907f9e09851e61f44d920e419cd8ba3657a43"
+    },
+    {
+      "path": "libraries/Wire/Wire.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49ca362c4bc14dd8c2806a77b2fd71e0a56d3d9d",
+      "size": 2585,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/49ca362c4bc14dd8c2806a77b2fd71e0a56d3d9d"
+    },
+    {
+      "path": "libraries/Wire/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76b3b0a3d630ef85e1ba928febd3b66124d84e8e",
+      "size": 484,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/76b3b0a3d630ef85e1ba928febd3b66124d84e8e"
+    },
+    {
+      "path": "libraries/Zephyr_SDRAM",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bd87bc3d112c067687429dd9f25ba629cf8a862",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/0bd87bc3d112c067687429dd9f25ba629cf8a862"
+    },
+    {
+      "path": "libraries/Zephyr_SDRAM/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b44c221ccff025184f0b17a5d599da655919f43",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/2b44c221ccff025184f0b17a5d599da655919f43"
+    },
+    {
+      "path": "libraries/Zephyr_SDRAM/examples/SDRAM_operations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "715f8324e92d1543e8c844dbccc1e41b78abce04",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/715f8324e92d1543e8c844dbccc1e41b78abce04"
+    },
+    {
+      "path": "libraries/Zephyr_SDRAM/examples/SDRAM_operations/SDRAM_operations.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47c4ade68de6737b6b08781fa1a56c2cd9080079",
+      "size": 1864,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/47c4ade68de6737b6b08781fa1a56c2cd9080079"
+    },
+    {
+      "path": "libraries/Zephyr_SDRAM/library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfb85064c577bfedde6e68ced80026149431fd70",
+      "size": 376,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/bfb85064c577bfedde6e68ced80026149431fd70"
+    },
+    {
+      "path": "libraries/Zephyr_SDRAM/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "514fb23ff41b39e071f532074be25822762bc78d",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/514fb23ff41b39e071f532074be25822762bc78d"
+    },
+    {
+      "path": "libraries/Zephyr_SDRAM/src/SDRAM.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2391ba4f0edcc34bfaa06f3be382a0d33630b1c0",
+      "size": 1853,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2391ba4f0edcc34bfaa06f3be382a0d33630b1c0"
+    },
+    {
+      "path": "libraries/Zephyr_SDRAM/src/SDRAM.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55ee609362677b08bb8f21cbb30766c52325710e",
+      "size": 633,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/55ee609362677b08bb8f21cbb30766c52325710e"
+    },
+    {
+      "path": "libraries/ea_malloc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27117956ab13520fc56a2981060494fe1dbd9a65",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/27117956ab13520fc56a2981060494fe1dbd9a65"
+    },
+    {
+      "path": "libraries/ea_malloc/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d21994a2dfd2b0bedb35389bee1fa985e33e6aa7",
+      "size": 1061,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d21994a2dfd2b0bedb35389bee1fa985e33e6aa7"
+    },
+    {
+      "path": "libraries/ea_malloc/ea_malloc.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2411584ae024d0ac71f910bea93fbafea758ee1c",
+      "size": 1197,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2411584ae024d0ac71f910bea93fbafea758ee1c"
+    },
+    {
+      "path": "libraries/ea_malloc/ll.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02cf2353d33ab461e75ad601faad36b458efc11a",
+      "size": 10314,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/02cf2353d33ab461e75ad601faad36b458efc11a"
+    },
+    {
+      "path": "libraries/ea_malloc/malloc_freelist.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a65ac86c5131128154406973a132e163af28f780",
+      "size": 3714,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a65ac86c5131128154406973a132e163af28f780"
+    },
+    {
+      "path": "libraries/stubs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f375cfd7ee732622f3a931ed5495d4b8e4a9d800",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/f375cfd7ee732622f3a931ed5495d4b8e4a9d800"
+    },
+    {
+      "path": "libraries/stubs/Arduino_RouterBridge.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "051290e89bc4f4ea8507a168d93b2900a315c2c0",
+      "size": 1276,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/051290e89bc4f4ea8507a168d93b2900a315c2c0"
+    },
+    {
+      "path": "loader",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1e4109b33dac7a485f4ce77f0b6c56841998d6ff",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/1e4109b33dac7a485f4ce77f0b6c56841998d6ff"
+    },
+    {
+      "path": "loader/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e6f2c9f2ae9dc1860806dc76062963e99e6f8ee",
+      "size": 1636,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/5e6f2c9f2ae9dc1860806dc76062963e99e6f8ee"
+    },
+    {
+      "path": "loader/Kconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9965f3757c9f022dcb2b9439d3489d0cd9b9c662",
+      "size": 545,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9965f3757c9f022dcb2b9439d3489d0cd9b9c662"
+    },
+    {
+      "path": "loader/blobs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a27339a319d131f3a764572e4f1c9335f932063",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/3a27339a319d131f3a764572e4f1c9335f932063"
+    },
+    {
+      "path": "loader/blobs/4343WA1_bin.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bc33076e6d545e7c4ed265922faa372e42a8053",
+      "size": 1978985,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7bc33076e6d545e7c4ed265922faa372e42a8053"
+    },
+    {
+      "path": "loader/blobs/4343WA1_bin_qspi.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04ca04429518e7cd18e0392ad976388f13dad290",
+      "size": 626,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/04ca04429518e7cd18e0392ad976388f13dad290"
+    },
+    {
+      "path": "loader/blobs/4343WA1_clm_blob.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71dcd3202f3e0f5fedcabe560dc871ef9ad63552",
+      "size": 29520,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/71dcd3202f3e0f5fedcabe560dc871ef9ad63552"
+    },
+    {
+      "path": "loader/blobs/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "325a55b02641d173a9600ed829314ef1183fa15b",
+      "size": 676,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/325a55b02641d173a9600ed829314ef1183fa15b"
+    },
+    {
+      "path": "loader/blobs/c33_bl.bin",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f93f1a5658b3011776a3c6f60975081b88a46c4e",
+      "size": 18435,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f93f1a5658b3011776a3c6f60975081b88a46c4e"
+    },
+    {
+      "path": "loader/blobs/c33_bl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fcca4998483b57c1041f7243aa78491989ab1ac",
+      "size": 1160,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/3fcca4998483b57c1041f7243aa78491989ab1ac"
+    },
+    {
+      "path": "loader/blobs/wifi_nvram_image_data.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d653266805908529f23eac6a5a5268c9149c0655",
+      "size": 2800,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d653266805908529f23eac6a5a5268c9149c0655"
+    },
+    {
+      "path": "loader/bootanimation.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5abeb34d3d46952198993f98e38c5519666ee2b4",
+      "size": 475066,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/5abeb34d3d46952198993f98e38c5519666ee2b4"
+    },
+    {
+      "path": "loader/dts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe945b9bbbace8879011104c3a471ba2d560a457",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/fe945b9bbbace8879011104c3a471ba2d560a457"
+    },
+    {
+      "path": "loader/dts/bindings",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69c37c7aa75345f54464773354e5975f9ce3a237",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/69c37c7aa75345f54464773354e5975f9ce3a237"
+    },
+    {
+      "path": "loader/dts/bindings/cannectivity.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cc51487ad88bcf2c0e38eec988e7e60b89d631d",
+      "size": 2263,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2cc51487ad88bcf2c0e38eec988e7e60b89d631d"
+    },
+    {
+      "path": "loader/fixups.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a7f57f911b213c329e567b139fd9fadd3e689d",
+      "size": 19362,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/72a7f57f911b213c329e567b139fd9fadd3e689d"
+    },
+    {
+      "path": "loader/llext_exports.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a53b83c326d548f6027b1f5cd7354facbb0df985",
+      "size": 14964,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a53b83c326d548f6027b1f5cd7354facbb0df985"
+    },
+    {
+      "path": "loader/main.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abf6e8831ad8f3a066d5bfd9c56022d4ae0462db",
+      "size": 11832,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/abf6e8831ad8f3a066d5bfd9c56022d4ae0462db"
+    },
+    {
+      "path": "loader/matrix.inc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff24a68d90f81df8be4cc9d74b8bc4f89a055fb8",
+      "size": 6559,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/ff24a68d90f81df8be4cc9d74b8bc4f89a055fb8"
+    },
+    {
+      "path": "loader/prj.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a5d87a2158309e21c22217e6066e6a74a683077",
+      "size": 1073,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8a5d87a2158309e21c22217e6066e6a74a683077"
+    },
+    {
+      "path": "loader/usbanimation.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48d9a054d9d87e1d9b21bb4096bd670f31017fcd",
+      "size": 178009,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/48d9a054d9d87e1d9b21bb4096bd670f31017fcd"
+    },
+    {
+      "path": "platform.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cbae4cf6d930c901c764ab69f698af42898118b",
+      "size": 20944,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9cbae4cf6d930c901c764ab69f698af42898118b"
+    },
+    {
+      "path": "post_install.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "933e49197d05bf9d9325c948084a145185910ca8",
+      "size": 1208,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/933e49197d05bf9d9325c948084a145185910ca8"
+    },
+    {
+      "path": "programmers.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84569ceb63f191f76b930e41e11b273de70f3f2",
+      "size": 597,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e84569ceb63f191f76b930e41e11b273de70f3f2"
+    },
+    {
+      "path": "samples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b72d19f713cb44872521d4942a3cfaee4edb7ec8",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/b72d19f713cb44872521d4942a3cfaee4edb7ec8"
+    },
+    {
+      "path": "samples/analog_input",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94811cb04d998723852b5b803c02adc2c47764e9",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/94811cb04d998723852b5b803c02adc2c47764e9"
+    },
+    {
+      "path": "samples/analog_input/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7cbc2032ea1e059766b45fa3ccb62a052cb7392",
+      "size": 504,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b7cbc2032ea1e059766b45fa3ccb62a052cb7392"
+    },
+    {
+      "path": "samples/analog_input/README.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51349e4835269090e9d1b261e8b2c1fadeafc620",
+      "size": 552,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/51349e4835269090e9d1b261e8b2c1fadeafc620"
+    },
+    {
+      "path": "samples/analog_input/prj.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7db482019c0b294f30268e378cd046eeb8693724",
+      "size": 34,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7db482019c0b294f30268e378cd046eeb8693724"
+    },
+    {
+      "path": "samples/analog_input/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43cc6275b9374850776ba0c384fc52276464b4b3",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/43cc6275b9374850776ba0c384fc52276464b4b3"
+    },
+    {
+      "path": "samples/analog_input/src/main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cc23dae6c59b510bf35673a4c07f28cffd07eeb",
+      "size": 603,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9cc23dae6c59b510bf35673a4c07f28cffd07eeb"
+    },
+    {
+      "path": "samples/attach_interrupt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4c8939621ab8ec078f5271e2ed3d52aa0648523",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/a4c8939621ab8ec078f5271e2ed3d52aa0648523"
+    },
+    {
+      "path": "samples/attach_interrupt/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bf7bce341e4742ba66616589757eabc4a16bd5b",
+      "size": 509,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/1bf7bce341e4742ba66616589757eabc4a16bd5b"
+    },
+    {
+      "path": "samples/attach_interrupt/README.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f85d738a13f00f107b9e45bb2c1336ffc5a3ae02",
+      "size": 564,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f85d738a13f00f107b9e45bb2c1336ffc5a3ae02"
+    },
+    {
+      "path": "samples/attach_interrupt/prj.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f93fa32189f5420d05d33755a93ad011ae678f80",
+      "size": 21,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f93fa32189f5420d05d33755a93ad011ae678f80"
+    },
+    {
+      "path": "samples/attach_interrupt/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3082bd675d6d39c7520f8bcf97a51475c159ac2b",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/3082bd675d6d39c7520f8bcf97a51475c159ac2b"
+    },
+    {
+      "path": "samples/attach_interrupt/src/main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d803dbb68513bc7bcfbc791e680bf0c9b542310",
+      "size": 472,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/3d803dbb68513bc7bcfbc791e680bf0c9b542310"
+    },
+    {
+      "path": "samples/blinky_arduino",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "120b1d2caccc80dccb52e6af15453b4a3bbaae36",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/120b1d2caccc80dccb52e6af15453b4a3bbaae36"
+    },
+    {
+      "path": "samples/blinky_arduino/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a17bfc560ab7474b51ee2653fa14525fa613f3",
+      "size": 499,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e3a17bfc560ab7474b51ee2653fa14525fa613f3"
+    },
+    {
+      "path": "samples/blinky_arduino/README.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a50c4b9f20aef0e6b52b571c5cc2d0806fc755f3",
+      "size": 1961,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a50c4b9f20aef0e6b52b571c5cc2d0806fc755f3"
+    },
+    {
+      "path": "samples/blinky_arduino/prj.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "290d61a3c51efa234edcce84297a4641d3e9235d",
+      "size": 35,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/290d61a3c51efa234edcce84297a4641d3e9235d"
+    },
+    {
+      "path": "samples/blinky_arduino/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7865eea811a08212528191a89120a3706a5618e9",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/7865eea811a08212528191a89120a3706a5618e9"
+    },
+    {
+      "path": "samples/blinky_arduino/src/main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3c1103e928e1f1953547e280a702eb812c5dc3a",
+      "size": 334,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b3c1103e928e1f1953547e280a702eb812c5dc3a"
+    },
+    {
+      "path": "samples/button_press_led",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c29951345f12b8ed1e3385f5dd48ee9ed6b025a6",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/c29951345f12b8ed1e3385f5dd48ee9ed6b025a6"
+    },
+    {
+      "path": "samples/button_press_led/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56569b9eaa2cb1ffef89a6a873b9044356a1061b",
+      "size": 509,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/56569b9eaa2cb1ffef89a6a873b9044356a1061b"
+    },
+    {
+      "path": "samples/button_press_led/README.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3cef7945bde4d9a36bac2ab42b4c875c96eb941",
+      "size": 1921,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f3cef7945bde4d9a36bac2ab42b4c875c96eb941"
+    },
+    {
+      "path": "samples/button_press_led/prj.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "290d61a3c51efa234edcce84297a4641d3e9235d",
+      "size": 35,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/290d61a3c51efa234edcce84297a4641d3e9235d"
+    },
+    {
+      "path": "samples/button_press_led/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "765328083ad48ab96bbc01c5ceb334fc4314d9e8",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/765328083ad48ab96bbc01c5ceb334fc4314d9e8"
+    },
+    {
+      "path": "samples/button_press_led/src/main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9440ceea7dae7f5c847df4e85a7ed48c6fd25528",
+      "size": 820,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9440ceea7dae7f5c847df4e85a7ed48c6fd25528"
+    },
+    {
+      "path": "samples/fade",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34cb1153ec13e9252dfcbd08014ebdfa76b7afdf",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/34cb1153ec13e9252dfcbd08014ebdfa76b7afdf"
+    },
+    {
+      "path": "samples/fade/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c03034185e83badf9fcbbbadc8417c2567680d57",
+      "size": 496,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/c03034185e83badf9fcbbbadc8417c2567680d57"
+    },
+    {
+      "path": "samples/fade/README.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8de33953495f4a52c68978fa3bed5134e3ef6fd6",
+      "size": 523,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8de33953495f4a52c68978fa3bed5134e3ef6fd6"
+    },
+    {
+      "path": "samples/fade/prj.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd969855c83e2b76a461741d383d1f2d954e24af",
+      "size": 34,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/cd969855c83e2b76a461741d383d1f2d954e24af"
+    },
+    {
+      "path": "samples/fade/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "321ba12bc4ee54a370c89e0e2e4595ee130ede8b",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/321ba12bc4ee54a370c89e0e2e4595ee130ede8b"
+    },
+    {
+      "path": "samples/fade/src/app.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e812dcd0ab571a8492f13f11f1bc9faa4718ca50",
+      "size": 573,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e812dcd0ab571a8492f13f11f1bc9faa4718ca50"
+    },
+    {
+      "path": "samples/hello_arduino",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f96b574d5701ff7e918c82964a96d1ed8a11cd31",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/f96b574d5701ff7e918c82964a96d1ed8a11cd31"
+    },
+    {
+      "path": "samples/hello_arduino/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83ea1b05bca28f51b0cee4075c673d875e36535c",
+      "size": 503,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/83ea1b05bca28f51b0cee4075c673d875e36535c"
+    },
+    {
+      "path": "samples/hello_arduino/README.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce5423d6f04484dae2b49eb232eb9b2e2ab3bb22",
+      "size": 610,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/ce5423d6f04484dae2b49eb232eb9b2e2ab3bb22"
+    },
+    {
+      "path": "samples/hello_arduino/prj.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f93fa32189f5420d05d33755a93ad011ae678f80",
+      "size": 21,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f93fa32189f5420d05d33755a93ad011ae678f80"
+    },
+    {
+      "path": "samples/hello_arduino/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6873b1020504ff4ffa230426065aa509d769960",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/e6873b1020504ff4ffa230426065aa509d769960"
+    },
+    {
+      "path": "samples/hello_arduino/src/app.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab8dc635c6b360bcb0c8f412244c7578c65b7ef4",
+      "size": 759,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/ab8dc635c6b360bcb0c8f412244c7578c65b7ef4"
+    },
+    {
+      "path": "samples/i2cdemo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ab267debd648edc0f0b8c56eb5d3c62c8b6d6f8",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/7ab267debd648edc0f0b8c56eb5d3c62c8b6d6f8"
+    },
+    {
+      "path": "samples/i2cdemo/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6251ff56838142619f9410a4b64705de29a553e",
+      "size": 500,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e6251ff56838142619f9410a4b64705de29a553e"
+    },
+    {
+      "path": "samples/i2cdemo/README.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41c6cb435f4f62966207bd28bf74d760426921cc",
+      "size": 603,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/41c6cb435f4f62966207bd28bf74d760426921cc"
+    },
+    {
+      "path": "samples/i2cdemo/prj.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d546d03658d709d989afd5f4a404385d0a8ad16e",
+      "size": 124,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d546d03658d709d989afd5f4a404385d0a8ad16e"
+    },
+    {
+      "path": "samples/i2cdemo/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c5f32836f52b7d0b99817df7a8d38e3e6364c41",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/5c5f32836f52b7d0b99817df7a8d38e3e6364c41"
+    },
+    {
+      "path": "samples/i2cdemo/src/main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f3f4c793e2100576e0a26923500a6de69ecbc02",
+      "size": 2214,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/6f3f4c793e2100576e0a26923500a6de69ecbc02"
+    },
+    {
+      "path": "samples/serial_event",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bbfbebfb22ca0d8e8e618272fd8ee7fa6920ddf",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/9bbfbebfb22ca0d8e8e618272fd8ee7fa6920ddf"
+    },
+    {
+      "path": "samples/serial_event/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8493bb793bce7ccf166ec1fe8a5f781ad8ba6f5c",
+      "size": 504,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8493bb793bce7ccf166ec1fe8a5f781ad8ba6f5c"
+    },
+    {
+      "path": "samples/serial_event/README.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4dde00802ac98255549cada43f6c26271c85042",
+      "size": 381,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e4dde00802ac98255549cada43f6c26271c85042"
+    },
+    {
+      "path": "samples/serial_event/prj.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f93fa32189f5420d05d33755a93ad011ae678f80",
+      "size": 21,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f93fa32189f5420d05d33755a93ad011ae678f80"
+    },
+    {
+      "path": "samples/serial_event/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d1696626c6187911e4077584eba065f1c2748fae",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/d1696626c6187911e4077584eba065f1c2748fae"
+    },
+    {
+      "path": "samples/serial_event/src/app.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "602d378a6359a1f48be73ae3df756fd965721afc",
+      "size": 293,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/602d378a6359a1f48be73ae3df756fd965721afc"
+    },
+    {
+      "path": "samples/spi_controller",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ee498ce283a2a9afc98215e0c1cd1e414e196b9",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/7ee498ce283a2a9afc98215e0c1cd1e414e196b9"
+    },
+    {
+      "path": "samples/spi_controller/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd1b6e40b6bf941ac8f0ef86709dbb6f207ccf4d",
+      "size": 506,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/bd1b6e40b6bf941ac8f0ef86709dbb6f207ccf4d"
+    },
+    {
+      "path": "samples/spi_controller/README.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d2aad338c62889563a69107e7fc78a9c6a81a43",
+      "size": 136,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8d2aad338c62889563a69107e7fc78a9c6a81a43"
+    },
+    {
+      "path": "samples/spi_controller/prj.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "661fb228bc09620747763dea6b268182da9bccf0",
+      "size": 114,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/661fb228bc09620747763dea6b268182da9bccf0"
+    },
+    {
+      "path": "samples/spi_controller/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a1c979639bc3c7cd9d5a4ac8cc11f2bdda83590",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/9a1c979639bc3c7cd9d5a4ac8cc11f2bdda83590"
+    },
+    {
+      "path": "samples/spi_controller/src/app.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d03065124af042aa494ee76d9c3f920174b2b5d5",
+      "size": 506,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d03065124af042aa494ee76d9c3f920174b2b5d5"
+    },
+    {
+      "path": "samples/threads_arduino",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8947a2b4ed9f4b2ce5ee26a56052b637c72fc3d2",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/8947a2b4ed9f4b2ce5ee26a56052b637c72fc3d2"
+    },
+    {
+      "path": "samples/threads_arduino/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b09f2e20e4973f75bd96b6eac5fcb25c44465cc9",
+      "size": 500,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b09f2e20e4973f75bd96b6eac5fcb25c44465cc9"
+    },
+    {
+      "path": "samples/threads_arduino/README.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "670cd23ddaf2dc9aed88354abdc454bdac0024d6",
+      "size": 1496,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/670cd23ddaf2dc9aed88354abdc454bdac0024d6"
+    },
+    {
+      "path": "samples/threads_arduino/prj.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d0830d4efd2f6174726cc1bde2bc6e4b7d9eea6",
+      "size": 65,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2d0830d4efd2f6174726cc1bde2bc6e4b7d9eea6"
+    },
+    {
+      "path": "samples/threads_arduino/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c5eb50ceb21ab161e86f2567ad41d9cbb9ae138c",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/c5eb50ceb21ab161e86f2567ad41d9cbb9ae138c"
+    },
+    {
+      "path": "samples/threads_arduino/src/main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fa01650051491bddfc14591895b3955c5e1960b",
+      "size": 932,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7fa01650051491bddfc14591895b3955c5e1960b"
+    },
+    {
+      "path": "tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ffe37d1fa3d815f3547857eee68c658202f7967",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/0ffe37d1fa3d815f3547857eee68c658202f7967"
+    },
+    {
+      "path": "tools/bin2uf2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab5f9158e9440e7305094bd0b167443d2d646738",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/ab5f9158e9440e7305094bd0b167443d2d646738"
+    },
+    {
+      "path": "tools/bin2uf2/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07e9ecf8f8580c51cabe411011e2edcff741f332",
+      "size": 7,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/07e9ecf8f8580c51cabe411011e2edcff741f332"
+    },
+    {
+      "path": "tools/bin2uf2/go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5231c8a0a6d03cafaf80fd765cd5832b508c850",
+      "size": 43,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d5231c8a0a6d03cafaf80fd765cd5832b508c850"
+    },
+    {
+      "path": "tools/bin2uf2/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d80cfce3d5e1199cb7508ea73ae7d358f14d1e3b",
+      "size": 5911,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d80cfce3d5e1199cb7508ea73ae7d358f14d1e3b"
+    },
+    {
+      "path": "tools/gen-rodata-ld",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52612ff0b696514dcbda40e9cb8573be29a0939a",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/52612ff0b696514dcbda40e9cb8573be29a0939a"
+    },
+    {
+      "path": "tools/gen-rodata-ld/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61f7df46173ad916d0260296ecd5125551c1f4dd",
+      "size": 14,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/61f7df46173ad916d0260296ecd5125551c1f4dd"
+    },
+    {
+      "path": "tools/gen-rodata-ld/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f577f39147efb3a14984cd12f8056a6d2d9e23ea",
+      "size": 1170,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f577f39147efb3a14984cd12f8056a6d2d9e23ea"
+    },
+    {
+      "path": "tools/gen-rodata-ld/go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c13c0422cd077115d80f42cd2ea6141ec54e5fa",
+      "size": 51,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/3c13c0422cd077115d80f42cd2ea6141ec54e5fa"
+    },
+    {
+      "path": "tools/gen-rodata-ld/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12dd1150de442c0339ba5c8db9fe6dd34104af4c",
+      "size": 3855,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/12dd1150de442c0339ba5c8db9fe6dd34104af4c"
+    },
+    {
+      "path": "tools/sync-zephyr-artifacts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c9b5ddd9961c56706adb78abe1f445f77ef1497",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/2c9b5ddd9961c56706adb78abe1f445f77ef1497"
+    },
+    {
+      "path": "tools/sync-zephyr-artifacts/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36cb59a321a1b6e1b12da1ff540eaaf6ddc17cdc",
+      "size": 22,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/36cb59a321a1b6e1b12da1ff540eaaf6ddc17cdc"
+    },
+    {
+      "path": "tools/sync-zephyr-artifacts/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a612ad9813b006ce81d1ee438dd784da99a54007",
+      "size": 16725,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a612ad9813b006ce81d1ee438dd784da99a54007"
+    },
+    {
+      "path": "tools/sync-zephyr-artifacts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61cf0d15912f6bc7f2d73672909b7a6d1397aaf9",
+      "size": 1157,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/61cf0d15912f6bc7f2d73672909b7a6d1397aaf9"
+    },
+    {
+      "path": "tools/sync-zephyr-artifacts/go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b6af8ca679a1935f6454ce061382173d2fa5856",
+      "size": 844,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/6b6af8ca679a1935f6454ce061382173d2fa5856"
+    },
+    {
+      "path": "tools/sync-zephyr-artifacts/go.sum",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86ca818c409fc5bec973fd6ddae4bd793d9be693",
+      "size": 5054,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/86ca818c409fc5bec973fd6ddae4bd793d9be693"
+    },
+    {
+      "path": "tools/sync-zephyr-artifacts/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fdf3b56eb4ea0d2893033b1a8ac61e51945106d",
+      "size": 6667,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8fdf3b56eb4ea0d2893033b1a8ac61e51945106d"
+    },
+    {
+      "path": "tools/zephyr-check-size",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddd0bfb16903d4321cd1f15d723b3a66839b40d3",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/ddd0bfb16903d4321cd1f15d723b3a66839b40d3"
+    },
+    {
+      "path": "tools/zephyr-check-size/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f73c91ea6536da44974c603a197c3fae7482ba4c",
+      "size": 18,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f73c91ea6536da44974c603a197c3fae7482ba4c"
+    },
+    {
+      "path": "tools/zephyr-check-size/go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d998393d1a31c9e720a6498aaeed71072801eef3",
+      "size": 55,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d998393d1a31c9e720a6498aaeed71072801eef3"
+    },
+    {
+      "path": "tools/zephyr-check-size/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f6f15c1604aa993e7e364449de0c765753b1558",
+      "size": 2556,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2f6f15c1604aa993e7e364449de0c765753b1558"
+    },
+    {
+      "path": "tools/zephyr-sketch-tool",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d9b360d632fe56fef5d31fcdb2a3bd1cc1e89ccc",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/d9b360d632fe56fef5d31fcdb2a3bd1cc1e89ccc"
+    },
+    {
+      "path": "tools/zephyr-sketch-tool/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b222c4d003ff35413aa8d14cbb63413b02c3f274",
+      "size": 19,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b222c4d003ff35413aa8d14cbb63413b02c3f274"
+    },
+    {
+      "path": "tools/zephyr-sketch-tool/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e62120cbab1adc87604dabd4f471e667236db1f8",
+      "size": 1140,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e62120cbab1adc87604dabd4f471e667236db1f8"
+    },
+    {
+      "path": "tools/zephyr-sketch-tool/go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "797a75ed745ea46b90a7f81f3a814b4125ef153f",
+      "size": 54,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/797a75ed745ea46b90a7f81f3a814b4125ef153f"
+    },
+    {
+      "path": "tools/zephyr-sketch-tool/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f68ff7f12f41814a6357e235dbb4f6e5c09649b8",
+      "size": 3521,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f68ff7f12f41814a6357e235dbb4f6e5c09649b8"
+    },
+    {
+      "path": "tools/zephyr-sketch-tool/ota.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "860a92de74c70e9743227fdacbaa5378d010fc55",
+      "size": 5600,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/860a92de74c70e9743227fdacbaa5378d010fc55"
+    },
+    {
+      "path": "variants",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98a0490e0a5d35fb3f794aad41e8b0d60db65210",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/98a0490e0a5d35fb3f794aad41e8b0d60db65210"
+    },
+    {
+      "path": "variants/_ldscripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48bcb7e4b2e63e0bed673a2205399db88f6555c0",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/48bcb7e4b2e63e0bed673a2205399db88f6555c0"
+    },
+    {
+      "path": "variants/_ldscripts/build-dynamic.ld",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cadb952c1a337aaac2147bbb79bfb28a71478006",
+      "size": 1460,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/cadb952c1a337aaac2147bbb79bfb28a71478006"
+    },
+    {
+      "path": "variants/_ldscripts/build-rodata.ld",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "143036ff3e19da20330bab7dc12c343fb7bbeab4",
+      "size": 492,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/143036ff3e19da20330bab7dc12c343fb7bbeab4"
+    },
+    {
+      "path": "variants/_ldscripts/build-static.ld",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "679685efc8615cd9789d128da3a86b7da6a9b18d",
+      "size": 2369,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/679685efc8615cd9789d128da3a86b7da6a9b18d"
+    },
+    {
+      "path": "variants/_ldscripts/memory-check.ld",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47fc8d679f53cde4278d139e656805bb8675c4ef",
+      "size": 486,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/47fc8d679f53cde4278d139e656805bb8675c4ef"
+    },
+    {
+      "path": "variants/_ldscripts/memory-static.ld",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85a3c48fead7435bd9491c44306bfd67601ae122",
+      "size": 469,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/85a3c48fead7435bd9491c44306bfd67601ae122"
+    },
+    {
+      "path": "variants/arduino_giga_r1_stm32h747xx_m7",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22f1e2181f593a6edac87c2c671c5721342937c6",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/22f1e2181f593a6edac87c2c671c5721342937c6"
+    },
+    {
+      "path": "variants/arduino_giga_r1_stm32h747xx_m7/arduino_giga_r1_stm32h747xx_m7.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeeb2f18a01af2310d26366a64f271584f09ab29",
+      "size": 5771,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/eeeb2f18a01af2310d26366a64f271584f09ab29"
+    },
+    {
+      "path": "variants/arduino_giga_r1_stm32h747xx_m7/arduino_giga_r1_stm32h747xx_m7.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5770da83e415074410f7b1534d10aebe0861eae0",
+      "size": 14208,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/5770da83e415074410f7b1534d10aebe0861eae0"
+    },
+    {
+      "path": "variants/arduino_giga_r1_stm32h747xx_m7/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7f9fa6abcf94b83f4cf4993b827a1c1a324be51",
+      "size": 887,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d7f9fa6abcf94b83f4cf4993b827a1c1a324be51"
+    },
+    {
+      "path": "variants/arduino_giga_r1_stm32h747xx_m7/pure_analog_pins.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92fc3a856b8fa6edf878b54b201d7c5d84878a9d",
+      "size": 408,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/92fc3a856b8fa6edf878b54b201d7c5d84878a9d"
+    },
+    {
+      "path": "variants/arduino_giga_r1_stm32h747xx_m7/pure_analog_pins.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02ccecf6d79efc14757fa7c2cce954aec2d8fd9b",
+      "size": 2034,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/02ccecf6d79efc14757fa7c2cce954aec2d8fd9b"
+    },
+    {
+      "path": "variants/arduino_giga_r1_stm32h747xx_m7/test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d6f587783a41e7d23d32b063b08c03cd84e4053",
+      "size": 979,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/6d6f587783a41e7d23d32b063b08c03cd84e4053"
+    },
+    {
+      "path": "variants/arduino_giga_r1_stm32h747xx_m7/variant.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5d752bcf764513f958b95e3b7aa54d9b017edd0",
+      "size": 429,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e5d752bcf764513f958b95e3b7aa54d9b017edd0"
+    },
+    {
+      "path": "variants/arduino_giga_r1_stm32h747xx_m7/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9f6e56bec230e92258c941aef267189d3362c45",
+      "size": 314,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f9f6e56bec230e92258c941aef267189d3362c45"
+    },
+    {
+      "path": "variants/arduino_mkrzero",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3300ea8c3dd995a931424d30d635d283528e6b35",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/3300ea8c3dd995a931424d30d635d283528e6b35"
+    },
+    {
+      "path": "variants/arduino_mkrzero/arduino_mkrzero.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e69fbc92b518be42a1b6f9751d26c7a9f3f577c",
+      "size": 3737,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/4e69fbc92b518be42a1b6f9751d26c7a9f3f577c"
+    },
+    {
+      "path": "variants/arduino_mkrzero/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06cab2dae08f7d546fee5930f8f4330c8eff9ccc",
+      "size": 83,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/06cab2dae08f7d546fee5930f8f4330c8eff9ccc"
+    },
+    {
+      "path": "variants/arduino_nano_33_ble",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c15968bc0c987ece4171652e49e4450b0553154",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/0c15968bc0c987ece4171652e49e4450b0553154"
+    },
+    {
+      "path": "variants/arduino_nano_33_ble/arduino_nano_33_ble.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "441db7345ec467fd9f3184cb6860b8b91b2f3310",
+      "size": 5281,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/441db7345ec467fd9f3184cb6860b8b91b2f3310"
+    },
+    {
+      "path": "variants/arduino_nano_33_ble/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb1a8d45dc095d76b830c21094f05962c0c857b2",
+      "size": 242,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/cb1a8d45dc095d76b830c21094f05962c0c857b2"
+    },
+    {
+      "path": "variants/arduino_nano_33_ble_nrf52840_sense",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dcab56eae413a2f37cd6edbb7da1682fec660515",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/dcab56eae413a2f37cd6edbb7da1682fec660515"
+    },
+    {
+      "path": "variants/arduino_nano_33_ble_nrf52840_sense/arduino_nano_33_ble_nrf52840_sense.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb1a0621a3e2e9ca3ee8ebfe09e26d0cb381595f",
+      "size": 1376,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/eb1a0621a3e2e9ca3ee8ebfe09e26d0cb381595f"
+    },
+    {
+      "path": "variants/arduino_nano_33_ble_nrf52840_sense/arduino_nano_33_ble_nrf52840_sense.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f99f274d9d0941084b68868b4c4178a83c758820",
+      "size": 7732,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f99f274d9d0941084b68868b4c4178a83c758820"
+    },
+    {
+      "path": "variants/arduino_nano_33_ble_nrf52840_sense/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad738288af1825b63f9c76ee510fa0e52d234e2",
+      "size": 492,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/fad738288af1825b63f9c76ee510fa0e52d234e2"
+    },
+    {
+      "path": "variants/arduino_nano_33_ble_nrf52840_sense/test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2026383af39a8e15a6f1d979da6eadea9674a9d1",
+      "size": 1306,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2026383af39a8e15a6f1d979da6eadea9674a9d1"
+    },
+    {
+      "path": "variants/arduino_nano_33_ble_nrf52840_sense/variant.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02b2e1a309f0d4aa3374256235a7d645539230d5",
+      "size": 772,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/02b2e1a309f0d4aa3374256235a7d645539230d5"
+    },
+    {
+      "path": "variants/arduino_nano_33_ble_nrf52840_sense/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a72d1decb7a10e687c8c0d926a3ce909c0ed41c",
+      "size": 539,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/3a72d1decb7a10e687c8c0d926a3ce909c0ed41c"
+    },
+    {
+      "path": "variants/arduino_nano_33_iot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "716d0272f3b777de8b7df6c38b3cfb0be660e1c6",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/716d0272f3b777de8b7df6c38b3cfb0be660e1c6"
+    },
+    {
+      "path": "variants/arduino_nano_33_iot/arduino_nano_33_iot.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b14b1fee96bd13b3bf47148bf7e62f58c869ebc1",
+      "size": 4295,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b14b1fee96bd13b3bf47148bf7e62f58c869ebc1"
+    },
+    {
+      "path": "variants/arduino_nano_33_iot/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb1a8d45dc095d76b830c21094f05962c0c857b2",
+      "size": 242,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/cb1a8d45dc095d76b830c21094f05962c0c857b2"
+    },
+    {
+      "path": "variants/arduino_nano_connect_rp2040",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38008b37c166ccbfae5b8162f26b07407625e282",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/38008b37c166ccbfae5b8162f26b07407625e282"
+    },
+    {
+      "path": "variants/arduino_nano_connect_rp2040/arduino_nano_connect_rp2040.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "238d4fb7e4bc8885fcbc5a225a5c6812093c5674",
+      "size": 881,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/238d4fb7e4bc8885fcbc5a225a5c6812093c5674"
+    },
+    {
+      "path": "variants/arduino_nano_connect_rp2040/arduino_nano_connect_rp2040.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "066202f6f48f4a2456c338a0ba2d9fb68bba8d8f",
+      "size": 7443,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/066202f6f48f4a2456c338a0ba2d9fb68bba8d8f"
+    },
+    {
+      "path": "variants/arduino_nano_connect_rp2040/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68ba6b01e7ae1a4d203de84c0e1414df87ca74f",
+      "size": 491,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d68ba6b01e7ae1a4d203de84c0e1414df87ca74f"
+    },
+    {
+      "path": "variants/arduino_nano_connect_rp2040/nina_pins.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdfb9da6033ad54b60eb35e1af244eef02bfd957",
+      "size": 321,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/bdfb9da6033ad54b60eb35e1af244eef02bfd957"
+    },
+    {
+      "path": "variants/arduino_nano_connect_rp2040/nina_pins.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c2d9198f3bcd10a60402c63fabc3121774fc393",
+      "size": 1973,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2c2d9198f3bcd10a60402c63fabc3121774fc393"
+    },
+    {
+      "path": "variants/arduino_nano_connect_rp2040/pins_arduino.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "490e179d3a915e5ecb7f2064c2a47e137315898f",
+      "size": 193,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/490e179d3a915e5ecb7f2064c2a47e137315898f"
+    },
+    {
+      "path": "variants/arduino_nano_connect_rp2040/test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10d63f16f315d9e08c441e142baf215de3f02286",
+      "size": 903,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/10d63f16f315d9e08c441e142baf215de3f02286"
+    },
+    {
+      "path": "variants/arduino_nano_connect_rp2040/variant.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ba4b2c8285cd79dbf83d7c30ce063970295c226",
+      "size": 599,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/0ba4b2c8285cd79dbf83d7c30ce063970295c226"
+    },
+    {
+      "path": "variants/arduino_nano_connect_rp2040/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6babd7cc02180a53d580e84a1ae590c84d17f3bc",
+      "size": 3137,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/6babd7cc02180a53d580e84a1ae590c84d17f3bc"
+    },
+    {
+      "path": "variants/arduino_nano_matter_mgm240sd22vna",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a796f356bf0d7dc80fd13045a1a26174739e54c5",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/a796f356bf0d7dc80fd13045a1a26174739e54c5"
+    },
+    {
+      "path": "variants/arduino_nano_matter_mgm240sd22vna/arduino_nano_matter_mgm240sd22vna.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f466b3150ca0e68f74ef9f70481b88c88971db4d",
+      "size": 962,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f466b3150ca0e68f74ef9f70481b88c88971db4d"
+    },
+    {
+      "path": "variants/arduino_nano_matter_mgm240sd22vna/arduino_nano_matter_mgm240sd22vna.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4799bc3cd966999ae0ee855269210187db97684",
+      "size": 2745,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e4799bc3cd966999ae0ee855269210187db97684"
+    },
+    {
+      "path": "variants/arduino_nano_matter_mgm240sd22vna/flash_bootloader.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdef669c275423a07ebeed96668d7eac025462c1",
+      "size": 277,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/bdef669c275423a07ebeed96668d7eac025462c1"
+    },
+    {
+      "path": "variants/arduino_nano_matter_mgm240sd22vna/flash_sketch.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31710a1f5af850bf6fd0978b023ca05f6755f70b",
+      "size": 451,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/31710a1f5af850bf6fd0978b023ca05f6755f70b"
+    },
+    {
+      "path": "variants/arduino_nano_matter_mgm240sd22vna/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68ba6b01e7ae1a4d203de84c0e1414df87ca74f",
+      "size": 491,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d68ba6b01e7ae1a4d203de84c0e1414df87ca74f"
+    },
+    {
+      "path": "variants/arduino_nano_matter_mgm240sd22vna/test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30d26fa3d2bcb4b024c0a4afebd53daf130602f0",
+      "size": 1066,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/30d26fa3d2bcb4b024c0a4afebd53daf130602f0"
+    },
+    {
+      "path": "variants/arduino_nano_matter_mgm240sd22vna/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4dade0efbed11295d2a82a98cbd7533b3596814",
+      "size": 399,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d4dade0efbed11295d2a82a98cbd7533b3596814"
+    },
+    {
+      "path": "variants/arduino_nicla_sense_me_nrf52832",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32c45b94d60165aad068cb750044bc5e89472021",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/32c45b94d60165aad068cb750044bc5e89472021"
+    },
+    {
+      "path": "variants/arduino_nicla_sense_me_nrf52832/arduino_nicla_sense_me_nrf52832.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5117311141277b3b95ea6c10a424c5918f974c2",
+      "size": 837,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d5117311141277b3b95ea6c10a424c5918f974c2"
+    },
+    {
+      "path": "variants/arduino_nicla_sense_me_nrf52832/arduino_nicla_sense_me_nrf52832.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b110bbcdb603e8bab0fff5452bab75f9c5904e7",
+      "size": 4550,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/0b110bbcdb603e8bab0fff5452bab75f9c5904e7"
+    },
+    {
+      "path": "variants/arduino_nicla_sense_me_nrf52832/flash_bootloader.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdef669c275423a07ebeed96668d7eac025462c1",
+      "size": 277,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/bdef669c275423a07ebeed96668d7eac025462c1"
+    },
+    {
+      "path": "variants/arduino_nicla_sense_me_nrf52832/flash_sketch.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31710a1f5af850bf6fd0978b023ca05f6755f70b",
+      "size": 451,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/31710a1f5af850bf6fd0978b023ca05f6755f70b"
+    },
+    {
+      "path": "variants/arduino_nicla_sense_me_nrf52832/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad738288af1825b63f9c76ee510fa0e52d234e2",
+      "size": 492,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/fad738288af1825b63f9c76ee510fa0e52d234e2"
+    },
+    {
+      "path": "variants/arduino_nicla_sense_me_nrf52832/test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "507bcefe2bcd1acb47f9f267799cdef2f85e44f4",
+      "size": 1164,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/507bcefe2bcd1acb47f9f267799cdef2f85e44f4"
+    },
+    {
+      "path": "variants/arduino_nicla_sense_me_nrf52832/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7250a760325e81726b3ee8f341467c7e24562ec",
+      "size": 127,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d7250a760325e81726b3ee8f341467c7e24562ec"
+    },
+    {
+      "path": "variants/arduino_nicla_vision_stm32h747xx_m7",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b992a728d93bde215a1954da7b44ec4dcb197c06",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/b992a728d93bde215a1954da7b44ec4dcb197c06"
+    },
+    {
+      "path": "variants/arduino_nicla_vision_stm32h747xx_m7/arduino_nicla_vision_stm32h747xx_m7.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6c0395c4429d0d25e6366b63ce2a69641949a77",
+      "size": 5234,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f6c0395c4429d0d25e6366b63ce2a69641949a77"
+    },
+    {
+      "path": "variants/arduino_nicla_vision_stm32h747xx_m7/arduino_nicla_vision_stm32h747xx_m7.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3021d27095e90de08442ed6e60040636c8e6684f",
+      "size": 8002,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/3021d27095e90de08442ed6e60040636c8e6684f"
+    },
+    {
+      "path": "variants/arduino_nicla_vision_stm32h747xx_m7/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad738288af1825b63f9c76ee510fa0e52d234e2",
+      "size": 492,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/fad738288af1825b63f9c76ee510fa0e52d234e2"
+    },
+    {
+      "path": "variants/arduino_nicla_vision_stm32h747xx_m7/pure_analog_pins.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da9068e1f618abbd1f37c2e476a63674fcbd9bd3",
+      "size": 404,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/da9068e1f618abbd1f37c2e476a63674fcbd9bd3"
+    },
+    {
+      "path": "variants/arduino_nicla_vision_stm32h747xx_m7/pure_analog_pins.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cf27cf316be2cf34c1bc402ff3667070c844d6d",
+      "size": 2027,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9cf27cf316be2cf34c1bc402ff3667070c844d6d"
+    },
+    {
+      "path": "variants/arduino_nicla_vision_stm32h747xx_m7/test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12c6ae136fd4f75aa461e9328e99e4ed7e398945",
+      "size": 716,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/12c6ae136fd4f75aa461e9328e99e4ed7e398945"
+    },
+    {
+      "path": "variants/arduino_nicla_vision_stm32h747xx_m7/variant.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ba32695818d30b889de7542fafe43ff5877da24",
+      "size": 1081,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8ba32695818d30b889de7542fafe43ff5877da24"
+    },
+    {
+      "path": "variants/arduino_nicla_vision_stm32h747xx_m7/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c613e0e24ddded57e23380ffb6ab347c51ab02bd",
+      "size": 588,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/c613e0e24ddded57e23380ffb6ab347c51ab02bd"
+    },
+    {
+      "path": "variants/arduino_opta_stm32h747xx_m7",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64746efc1b8c7aa8bbacf4cc537c819ad9ba2cfd",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/64746efc1b8c7aa8bbacf4cc537c819ad9ba2cfd"
+    },
+    {
+      "path": "variants/arduino_opta_stm32h747xx_m7/arduino_opta_stm32h747xx_m7.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df52fe27c39717d145b02f94f66a717a3b25a14c",
+      "size": 5077,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/df52fe27c39717d145b02f94f66a717a3b25a14c"
+    },
+    {
+      "path": "variants/arduino_opta_stm32h747xx_m7/arduino_opta_stm32h747xx_m7.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d536589fcf9f3fc90aac6809b104e4d3889c8657",
+      "size": 2958,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d536589fcf9f3fc90aac6809b104e4d3889c8657"
+    },
+    {
+      "path": "variants/arduino_opta_stm32h747xx_m7/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68ba6b01e7ae1a4d203de84c0e1414df87ca74f",
+      "size": 491,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d68ba6b01e7ae1a4d203de84c0e1414df87ca74f"
+    },
+    {
+      "path": "variants/arduino_opta_stm32h747xx_m7/test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd8412c39ff00d9cb2e9c3ca48b79c45490fc39c",
+      "size": 812,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/cd8412c39ff00d9cb2e9c3ca48b79c45490fc39c"
+    },
+    {
+      "path": "variants/arduino_opta_stm32h747xx_m7/variant.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5d752bcf764513f958b95e3b7aa54d9b017edd0",
+      "size": 429,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e5d752bcf764513f958b95e3b7aa54d9b017edd0"
+    },
+    {
+      "path": "variants/arduino_opta_stm32h747xx_m7/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7250a760325e81726b3ee8f341467c7e24562ec",
+      "size": 127,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d7250a760325e81726b3ee8f341467c7e24562ec"
+    },
+    {
+      "path": "variants/arduino_portenta_c33_r7fa6m5bh3cfc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddd2c8ef5a376b836f896c2361fc77fc9afd20b0",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/ddd2c8ef5a376b836f896c2361fc77fc9afd20b0"
+    },
+    {
+      "path": "variants/arduino_portenta_c33_r7fa6m5bh3cfc/arduino_portenta_c33_r7fa6m5bh3cfc.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "278b9f9ce3089c018098dfe9fc2914dd504f9d7a",
+      "size": 5278,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/278b9f9ce3089c018098dfe9fc2914dd504f9d7a"
+    },
+    {
+      "path": "variants/arduino_portenta_c33_r7fa6m5bh3cfc/arduino_portenta_c33_r7fa6m5bh3cfc.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "122c24ef29e0f26ffb07fa75e3ee3faa4f177040",
+      "size": 14663,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/122c24ef29e0f26ffb07fa75e3ee3faa4f177040"
+    },
+    {
+      "path": "variants/arduino_portenta_c33_r7fa6m5bh3cfc/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68ba6b01e7ae1a4d203de84c0e1414df87ca74f",
+      "size": 491,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d68ba6b01e7ae1a4d203de84c0e1414df87ca74f"
+    },
+    {
+      "path": "variants/arduino_portenta_c33_r7fa6m5bh3cfc/test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2f6e2254e8e2839b966f7f4319ef70749ea146f",
+      "size": 714,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f2f6e2254e8e2839b966f7f4319ef70749ea146f"
+    },
+    {
+      "path": "variants/arduino_portenta_c33_r7fa6m5bh3cfc/variant.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4e06128739168cb3d82f8846c61988a87420457",
+      "size": 676,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/e4e06128739168cb3d82f8846c61988a87420457"
+    },
+    {
+      "path": "variants/arduino_portenta_c33_r7fa6m5bh3cfc/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e29b174a558f0aa2f843ca7767a65dff48edf32",
+      "size": 160,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/1e29b174a558f0aa2f843ca7767a65dff48edf32"
+    },
+    {
+      "path": "variants/arduino_portenta_h7_stm32h747xx_m7",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b010306c74cb1b4909b4f0872d05ae39b94c7b8",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/1b010306c74cb1b4909b4f0872d05ae39b94c7b8"
+    },
+    {
+      "path": "variants/arduino_portenta_h7_stm32h747xx_m7/arduino_portenta_h7_stm32h747xx_m7.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d5555dca35cdb1434ef91b12c76fd92cb258e97",
+      "size": 5532,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7d5555dca35cdb1434ef91b12c76fd92cb258e97"
+    },
+    {
+      "path": "variants/arduino_portenta_h7_stm32h747xx_m7/arduino_portenta_h7_stm32h747xx_m7.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b2f944562c106fe0e4956aafe93fdbdae96d4e0",
+      "size": 12521,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7b2f944562c106fe0e4956aafe93fdbdae96d4e0"
+    },
+    {
+      "path": "variants/arduino_portenta_h7_stm32h747xx_m7/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7f9fa6abcf94b83f4cf4993b827a1c1a324be51",
+      "size": 887,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d7f9fa6abcf94b83f4cf4993b827a1c1a324be51"
+    },
+    {
+      "path": "variants/arduino_portenta_h7_stm32h747xx_m7/pure_analog_pins.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da9068e1f618abbd1f37c2e476a63674fcbd9bd3",
+      "size": 404,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/da9068e1f618abbd1f37c2e476a63674fcbd9bd3"
+    },
+    {
+      "path": "variants/arduino_portenta_h7_stm32h747xx_m7/pure_analog_pins.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d5262e46e38b2ffd30125300b5946f8d382aba7",
+      "size": 2026,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7d5262e46e38b2ffd30125300b5946f8d382aba7"
+    },
+    {
+      "path": "variants/arduino_portenta_h7_stm32h747xx_m7/test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f22fd96f63346f07f25d8f6f703e2c74ed77897",
+      "size": 816,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/1f22fd96f63346f07f25d8f6f703e2c74ed77897"
+    },
+    {
+      "path": "variants/arduino_portenta_h7_stm32h747xx_m7/variant.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c8e624d0e667e1bd2ccdb745b562ba1e299f60d",
+      "size": 783,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/3c8e624d0e667e1bd2ccdb745b562ba1e299f60d"
+    },
+    {
+      "path": "variants/arduino_portenta_h7_stm32h747xx_m7/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "424c7be1851e2bf2ec8cc4d609640d16b6538031",
+      "size": 302,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/424c7be1851e2bf2ec8cc4d609640d16b6538031"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "179e30060624cfaed5cc076b6e92312d4a9f8559",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/179e30060624cfaed5cc076b6e92312d4a9f8559"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx/analogReference.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8289d5c7d262931a1c66723904f28cd24152ca8",
+      "size": 257,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/b8289d5c7d262931a1c66723904f28cd24152ca8"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx/arduino_uno_q_stm32u585xx.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed9aa09dc5e8c1cf4806712633d1f8e1cf90c3b2",
+      "size": 997,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/ed9aa09dc5e8c1cf4806712633d1f8e1cf90c3b2"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx/arduino_uno_q_stm32u585xx.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da930e7820ca3d1421213623838178e7cef2df6f",
+      "size": 12523,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/da930e7820ca3d1421213623838178e7cef2df6f"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx/flash_bootloader.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c902d77667c7346a3db2604cb3afdbcc5263184e",
+      "size": 310,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/c902d77667c7346a3db2604cb3afdbcc5263184e"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx/flash_sketch.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e32a69cd78e35e642ddf1a501a1b584553829c1",
+      "size": 680,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9e32a69cd78e35e642ddf1a501a1b584553829c1"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad738288af1825b63f9c76ee510fa0e52d234e2",
+      "size": 492,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/fad738288af1825b63f9c76ee510fa0e52d234e2"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx/postvariant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cff02b7e32c1549d8aae7359d94866f66819f03",
+      "size": 627,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7cff02b7e32c1549d8aae7359d94866f66819f03"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ce3169417360cd5904a1693ca9df6787d1f653e",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/5ce3169417360cd5904a1693ca9df6787d1f653e"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx/scripts/set-to-ram-mode.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9ff251684c5dc3a18aa22d42f7c118cac5b10b3c",
+      "size": 1114,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9ff251684c5dc3a18aa22d42f7c118cac5b10b3c"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx/test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "749b342ad7bdecdc265c9088b4b93b0361c12a27",
+      "size": 1215,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/749b342ad7bdecdc265c9088b4b93b0361c12a27"
+    },
+    {
+      "path": "variants/arduino_uno_q_stm32u585xx/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cdaffc5be671633356b6553a1237374859aca48",
+      "size": 1540,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/8cdaffc5be671633356b6553a1237374859aca48"
+    },
+    {
+      "path": "variants/arduino_ventuno_q_stm32h5f5xx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88f8c7af330a57dc0913ebc23312cf6b9cd6c824",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/88f8c7af330a57dc0913ebc23312cf6b9cd6c824"
+    },
+    {
+      "path": "variants/arduino_ventuno_q_stm32h5f5xx/analogReference.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6a929fc99be8858fdba90518f0642547757b334",
+      "size": 258,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d6a929fc99be8858fdba90518f0642547757b334"
+    },
+    {
+      "path": "variants/arduino_ventuno_q_stm32h5f5xx/arduino_ventuno_q_stm32h5f5xx.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3c371d30f90d1f7ba42a668991b0e81ff54dfa6",
+      "size": 1555,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f3c371d30f90d1f7ba42a668991b0e81ff54dfa6"
+    },
+    {
+      "path": "variants/arduino_ventuno_q_stm32h5f5xx/arduino_ventuno_q_stm32h5f5xx.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92849e5ec70974d55d7fcc1de296564696a1f95f",
+      "size": 11421,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/92849e5ec70974d55d7fcc1de296564696a1f95f"
+    },
+    {
+      "path": "variants/arduino_ventuno_q_stm32h5f5xx/flash_bootloader.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d3aead25c33e4230445950071b00303ec8276ec",
+      "size": 150,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2d3aead25c33e4230445950071b00303ec8276ec"
+    },
+    {
+      "path": "variants/arduino_ventuno_q_stm32h5f5xx/flash_sketch.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e32a69cd78e35e642ddf1a501a1b584553829c1",
+      "size": 680,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/9e32a69cd78e35e642ddf1a501a1b584553829c1"
+    },
+    {
+      "path": "variants/arduino_ventuno_q_stm32h5f5xx/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68ba6b01e7ae1a4d203de84c0e1414df87ca74f",
+      "size": 491,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d68ba6b01e7ae1a4d203de84c0e1414df87ca74f"
+    },
+    {
+      "path": "variants/arduino_ventuno_q_stm32h5f5xx/postvariant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cff02b7e32c1549d8aae7359d94866f66819f03",
+      "size": 627,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7cff02b7e32c1549d8aae7359d94866f66819f03"
+    },
+    {
+      "path": "variants/arduino_ventuno_q_stm32h5f5xx/test_setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "665ceb2b2e59c5495a78d22d4f428d30b72f6faf",
+      "size": 1007,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/665ceb2b2e59c5495a78d22d4f428d30b72f6faf"
+    },
+    {
+      "path": "variants/arduino_ventuno_q_stm32h5f5xx/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "065b1dbd67faba5a4b97d2d076b89ba2e49a1659",
+      "size": 1821,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/065b1dbd67faba5a4b97d2d076b89ba2e49a1659"
+    },
+    {
+      "path": "variants/beagleconnect_freedom",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bade7a024c892ea2f688c96289cb33aa4a7b9b6b",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/bade7a024c892ea2f688c96289cb33aa4a7b9b6b"
+    },
+    {
+      "path": "variants/beagleconnect_freedom/beagleconnect_freedom.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0eb83999417288253812c4fdd866dbc3b2edc9",
+      "size": 4635,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/dd0eb83999417288253812c4fdd866dbc3b2edc9"
+    },
+    {
+      "path": "variants/beagleconnect_freedom/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cda3bd6afffb9b2243b0d2edbb7d4abb4d33c187",
+      "size": 171,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/cda3bd6afffb9b2243b0d2edbb7d4abb4d33c187"
+    },
+    {
+      "path": "variants/cc3220sf_launchxl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "923a22fc47b37444aeb59676914b2abd91e72c6e",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/923a22fc47b37444aeb59676914b2abd91e72c6e"
+    },
+    {
+      "path": "variants/cc3220sf_launchxl/cc3220sf_launchxl.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1c91f6d2bc4adbe6118119d72e0ae25ed023ffd",
+      "size": 1413,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f1c91f6d2bc4adbe6118119d72e0ae25ed023ffd"
+    },
+    {
+      "path": "variants/cc3220sf_launchxl/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0be70fc9143934a6c2949093cfdbd42a81f0766a",
+      "size": 255,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/0be70fc9143934a6c2949093cfdbd42a81f0766a"
+    },
+    {
+      "path": "variants/common",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55f30251c00c6f17ed4bca45f9eabf2e6adb89a7",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/55f30251c00c6f17ed4bca45f9eabf2e6adb89a7"
+    },
+    {
+      "path": "variants/common/arduino_flash_fs.dtsi",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fffa695d327d8986f99de3ac1bde36070b23e3a2",
+      "size": 2570,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/fffa695d327d8986f99de3ac1bde36070b23e3a2"
+    },
+    {
+      "path": "variants/common/gpio_lowlevel_stm32.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c60f9db5ce7b9374fe05e1dc9b8312c1eb79ff2e",
+      "size": 660,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/c60f9db5ce7b9374fe05e1dc9b8312c1eb79ff2e"
+    },
+    {
+      "path": "variants/ek_ra8d1_r7fa8d1bhecbd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09fdfe68bb6021491dc62bd37ab0f14dbb9ce449",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/09fdfe68bb6021491dc62bd37ab0f14dbb9ce449"
+    },
+    {
+      "path": "variants/ek_ra8d1_r7fa8d1bhecbd/ek_ra8d1_r7fa8d1bhecbd.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "178e88311db8826133df7bb19d18c9228548c314",
+      "size": 201,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/178e88311db8826133df7bb19d18c9228548c314"
+    },
+    {
+      "path": "variants/ek_ra8d1_r7fa8d1bhecbd/ek_ra8d1_r7fa8d1bhecbd.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f0a54fb476f77542ef95978ea0ea0ff8521f7be",
+      "size": 751,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/2f0a54fb476f77542ef95978ea0ea0ff8521f7be"
+    },
+    {
+      "path": "variants/ek_ra8d1_r7fa8d1bhecbd/flasher.jlink",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbbcda07e096cc9566b3c8e90af8e167c5f63141",
+      "size": 177,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/cbbcda07e096cc9566b3c8e90af8e167c5f63141"
+    },
+    {
+      "path": "variants/ek_ra8d1_r7fa8d1bhecbd/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad738288af1825b63f9c76ee510fa0e52d234e2",
+      "size": 492,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/fad738288af1825b63f9c76ee510fa0e52d234e2"
+    },
+    {
+      "path": "variants/ek_ra8d1_r7fa8d1bhecbd/linker_script.ld",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8d54c616bd19577e4994d59e5402736810190dd",
+      "size": 1277,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a8d54c616bd19577e4994d59e5402736810190dd"
+    },
+    {
+      "path": "variants/ek_ra8d1_r7fa8d1bhecbd/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c33a896ddc359bcda9402376bca860e8bb087f",
+      "size": 239,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/68c33a896ddc359bcda9402376bca860e8bb087f"
+    },
+    {
+      "path": "variants/frdm_mcxn947_mcxn947_cpu0",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92b28161f52d57350f41b11080dfd68c84a43334",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/92b28161f52d57350f41b11080dfd68c84a43334"
+    },
+    {
+      "path": "variants/frdm_mcxn947_mcxn947_cpu0/frdm_mcxn947_mcxn947_cpu0.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6d720505b573f5e824e3fffb62d4b41c754ad52",
+      "size": 1459,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/d6d720505b573f5e824e3fffb62d4b41c754ad52"
+    },
+    {
+      "path": "variants/frdm_mcxn947_mcxn947_cpu0/frdm_mcxn947_mcxn947_cpu0.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd9537e10abe45785d477a9b072cf1fde89a8bdd",
+      "size": 886,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/bd9537e10abe45785d477a9b072cf1fde89a8bdd"
+    },
+    {
+      "path": "variants/frdm_mcxn947_mcxn947_cpu0/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad738288af1825b63f9c76ee510fa0e52d234e2",
+      "size": 492,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/fad738288af1825b63f9c76ee510fa0e52d234e2"
+    },
+    {
+      "path": "variants/frdm_mcxn947_mcxn947_cpu0/linker_script.ld",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8d54c616bd19577e4994d59e5402736810190dd",
+      "size": 1277,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/a8d54c616bd19577e4994d59e5402736810190dd"
+    },
+    {
+      "path": "variants/frdm_mcxn947_mcxn947_cpu0/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c33a896ddc359bcda9402376bca860e8bb087f",
+      "size": 239,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/68c33a896ddc359bcda9402376bca860e8bb087f"
+    },
+    {
+      "path": "variants/frdm_rw612_rw612",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06fff520cc86b5f2f636e30af899f550f21b555a",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/06fff520cc86b5f2f636e30af899f550f21b555a"
+    },
+    {
+      "path": "variants/frdm_rw612_rw612/frdm_rw612_rw612.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54709b3a9860f8d17dd6bb2a81a14d71d94a7085",
+      "size": 5114,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/54709b3a9860f8d17dd6bb2a81a14d71d94a7085"
+    },
+    {
+      "path": "variants/frdm_rw612_rw612/frdm_rw612_rw612.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "768ed651bbe86726ab4fc233234b310097f005ef",
+      "size": 646,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/768ed651bbe86726ab4fc233234b310097f005ef"
+    },
+    {
+      "path": "variants/frdm_rw612_rw612/known_example_issues.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad738288af1825b63f9c76ee510fa0e52d234e2",
+      "size": 492,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/fad738288af1825b63f9c76ee510fa0e52d234e2"
+    },
+    {
+      "path": "variants/frdm_rw612_rw612/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6837f622044dacc4f21b16c6c7eb10ab2b3aa6d",
+      "size": 269,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f6837f622044dacc4f21b16c6c7eb10ab2b3aa6d"
+    },
+    {
+      "path": "variants/nrf52840dk_nrf52840",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b36ebcd1a4f8fae9137f0c35c189210e8d32ebe",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/3b36ebcd1a4f8fae9137f0c35c189210e8d32ebe"
+    },
+    {
+      "path": "variants/nrf52840dk_nrf52840/nrf52840dk_nrf52840.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f70723357d551756fb75ca085ab895c577356c9a",
+      "size": 4790,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/f70723357d551756fb75ca085ab895c577356c9a"
+    },
+    {
+      "path": "variants/nrf52840dk_nrf52840/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd35da076018740133639c40b28f1e14359cc61e",
+      "size": 83,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/dd35da076018740133639c40b28f1e14359cc61e"
+    },
+    {
+      "path": "variants/nrf9160dk_nrf9160",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f192ee1a684aa823c35ad7868b859487e798851a",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/f192ee1a684aa823c35ad7868b859487e798851a"
+    },
+    {
+      "path": "variants/nrf9160dk_nrf9160/nrf9160dk_nrf9160.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85dbbbeafc052571234325adff1ec9a1594f27ac",
+      "size": 4640,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/85dbbbeafc052571234325adff1ec9a1594f27ac"
+    },
+    {
+      "path": "variants/nrf9160dk_nrf9160/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1da36b9b1df63478b7638bc00aaf5243812cebe6",
+      "size": 606,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/1da36b9b1df63478b7638bc00aaf5243812cebe6"
+    },
+    {
+      "path": "variants/rpi_pico",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69f4a0e2a27a4ba8c7c28b2d35f0ede524088d4a",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/69f4a0e2a27a4ba8c7c28b2d35f0ede524088d4a"
+    },
+    {
+      "path": "variants/rpi_pico/rpi_pico.overlay",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92baee3bf4a31ee06bdd3b98141f052055983daf",
+      "size": 3987,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/92baee3bf4a31ee06bdd3b98141f052055983daf"
+    },
+    {
+      "path": "variants/rpi_pico/variant.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "597ceefab1b5da10277d9a0aee8ec02e47491aab",
+      "size": 86,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/597ceefab1b5da10277d9a0aee8ec02e47491aab"
+    },
+    {
+      "path": "west.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7be2e81931242f9b1139ff59dffb7bdef1b15745",
+      "size": 1756,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/7be2e81931242f9b1139ff59dffb7bdef1b15745"
+    },
+    {
+      "path": "zephyr",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bbf401f817d15d853038f845c2df6e9d8f24814",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/1bbf401f817d15d853038f845c2df6e9d8f24814"
+    },
+    {
+      "path": "zephyr/blobs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1de90b6dea1d0ab8b87b0b10e0ab30985639a166",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/1de90b6dea1d0ab8b87b0b10e0ab30985639a166"
+    },
+    {
+      "path": "zephyr/blobs/ArduinoCore-API",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d77fd3141024c9c6d30144e924206fa7dc5930d",
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/trees/8d77fd3141024c9c6d30144e924206fa7dc5930d"
+    },
+    {
+      "path": "zephyr/blobs/ArduinoCore-API/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f5d1a52fb16cb99eaa7004f349645257c2cbe11",
+      "size": 28,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/6f5d1a52fb16cb99eaa7004f349645257c2cbe11"
+    },
+    {
+      "path": "zephyr/blobs/ArduinoCore-API/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a041280bd00a9d068f503b8ee7ce35214bd24a1",
+      "size": 7652,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/0a041280bd00a9d068f503b8ee7ce35214bd24a1"
+    },
+    {
+      "path": "zephyr/module.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a221c2c7cd45be26e7eb310e37f68903aac9854",
+      "size": 549,
+      "url": "https://api.github.com/repos/arduino/ArduinoCore-zephyr/git/blobs/4a221c2c7cd45be26e7eb310e37f68903aac9854"
+    }
+  ],
+  "truncated": false
+}

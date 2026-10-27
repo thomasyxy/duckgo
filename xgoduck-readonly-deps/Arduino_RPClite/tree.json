@@ -1,0 +1,440 @@
+{
+  "sha": "871a213aefa53020f5a6881a3a99d0f66d172fd7",
+  "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/871a213aefa53020f5a6881a3a99d0f66d172fd7",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "916dd7645bcd0e1f17cc1ea51127455edbedd446",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/916dd7645bcd0e1f17cc1ea51127455edbedd446"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c186e6752ed20859cb58b37030b1c7d819c85f21",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/c186e6752ed20859cb58b37030b1c7d819c85f21"
+    },
+    {
+      "path": ".github/workflows/arduino-lint.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a897cdb95a100b5d6e6a90e765c23287f2f5838a",
+      "size": 825,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/a897cdb95a100b5d6e6a90e765c23287f2f5838a"
+    },
+    {
+      "path": ".github/workflows/compile-examples.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64b05ee31dab9eab8e2d40097da0482e559ede3d",
+      "size": 2848,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/64b05ee31dab9eab8e2d40097da0482e559ede3d"
+    },
+    {
+      "path": ".github/workflows/sync-labels.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15569760decc23b1622c4e90cca5deb888403509",
+      "size": 4938,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/15569760decc23b1622c4e90cca5deb888403509"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bc50b17f9758e6815ef165381a8356c63514bb8",
+      "size": 29,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/8bc50b17f9758e6815ef165381a8356c63514bb8"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa0086a952236971ab37901954d596efae9f4af6",
+      "size": 16724,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/fa0086a952236971ab37901954d596efae9f4af6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb58af99c3073ba21a0cd6cafc6d7d231faa2e8a",
+      "size": 1965,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/eb58af99c3073ba21a0cd6cafc6d7d231faa2e8a"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34ea2be478d990410f5237127683220e368156a8",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/34ea2be478d990410f5237127683220e368156a8"
+    },
+    {
+      "path": "examples/rpc_lite_client",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35e2deccae7c1959811d18ed0fa3619979ce2d24",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/35e2deccae7c1959811d18ed0fa3619979ce2d24"
+    },
+    {
+      "path": "examples/rpc_lite_client/rpc_lite_client.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51a35d06a6661b6effa70b6d1a997bfa3b8c3e55",
+      "size": 1248,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/51a35d06a6661b6effa70b6d1a997bfa3b8c3e55"
+    },
+    {
+      "path": "examples/rpc_lite_server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "321e156631ffcc225b0046903e7bddc34c7e9758",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/321e156631ffcc225b0046903e7bddc34c7e9758"
+    },
+    {
+      "path": "examples/rpc_lite_server/rpc_lite_server.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ed559d9fa9086bc34021caf58012c280122ea8d",
+      "size": 859,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/6ed559d9fa9086bc34021caf58012c280122ea8d"
+    },
+    {
+      "path": "extras",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4f3245681431a0a441e3ceb27a3191882c8c7ca",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/b4f3245681431a0a441e3ceb27a3191882c8c7ca"
+    },
+    {
+      "path": "extras/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18ef5fdafc4b0cf17c702422db8c658147c2e8ca",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/18ef5fdafc4b0cf17c702422db8c658147c2e8ca"
+    },
+    {
+      "path": "extras/examples/serial_client_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4874e0a65688f767394160f85811bdc001ae7c4e",
+      "size": 616,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/4874e0a65688f767394160f85811bdc001ae7c4e"
+    },
+    {
+      "path": "extras/examples/serial_server_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "641537cab6e69ecad0ff6e13061af09f6eca4dd5",
+      "size": 1593,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/641537cab6e69ecad0ff6e13061af09f6eca4dd5"
+    },
+    {
+      "path": "extras/integration_test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9286c58b1f6d9e85b5afb44a755be5fbbaab72cb",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/9286c58b1f6d9e85b5afb44a755be5fbbaab72cb"
+    },
+    {
+      "path": "extras/integration_test/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cd77325fe91097bc2427ddc3c6e54aee3ba29c3",
+      "size": 3888,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/9cd77325fe91097bc2427ddc3c6e54aee3ba29c3"
+    },
+    {
+      "path": "extras/integration_test/RPCClient_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28af457fe74ca22c50472ed9e0af96bd451585d7",
+      "size": 4091,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/28af457fe74ca22c50472ed9e0af96bd451585d7"
+    },
+    {
+      "path": "extras/integration_test/RPCServer_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0be7e0825396046d19d2f476d70df918c86e4061",
+      "size": 3170,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/0be7e0825396046d19d2f476d70df918c86e4061"
+    },
+    {
+      "path": "extras/integration_test/TestRPCClient",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4132956b0b8364f013d9cb4bbcda5a70f864aac",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/c4132956b0b8364f013d9cb4bbcda5a70f864aac"
+    },
+    {
+      "path": "extras/integration_test/TestRPCClient/TestRPCClient.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2669ae3ededed902d29b06006a6ca035bc1825c",
+      "size": 2273,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/b2669ae3ededed902d29b06006a6ca035bc1825c"
+    },
+    {
+      "path": "extras/integration_test/TestRPCClient/serial_ports.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c47da5792b78df14500a0fa60cb584e7723ef5b",
+      "size": 635,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/3c47da5792b78df14500a0fa60cb584e7723ef5b"
+    },
+    {
+      "path": "extras/integration_test/TestRPCServer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96ab849a0079a888971787bd23e7113582f1dd53",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/96ab849a0079a888971787bd23e7113582f1dd53"
+    },
+    {
+      "path": "extras/integration_test/TestRPCServer/TestRPCServer.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3c9ebc7253638aa448c31c35d4253b3171fb910",
+      "size": 1139,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/c3c9ebc7253638aa448c31c35d4253b3171fb910"
+    },
+    {
+      "path": "extras/integration_test/TestRPCServer/serial_ports.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c47da5792b78df14500a0fa60cb584e7723ef5b",
+      "size": 635,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/3c47da5792b78df14500a0fa60cb584e7723ef5b"
+    },
+    {
+      "path": "extras/integration_test/go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aac91de447843110a82b4b1b7999631aed396c43",
+      "size": 490,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/aac91de447843110a82b4b1b7999631aed396c43"
+    },
+    {
+      "path": "extras/integration_test/go.sum",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9289a0621e4030a32185915f71033d84f1f362ae",
+      "size": 1919,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/9289a0621e4030a32185915f71033d84f1f362ae"
+    },
+    {
+      "path": "extras/integration_test/serial_ports.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0c738bf0d3cc6a164a9d3c8fe6cb69fb0c31363",
+      "size": 558,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/f0c738bf0d3cc6a164a9d3c8fe6cb69fb0c31363"
+    },
+    {
+      "path": "extras/integration_test/testsuite.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8eff43eab78cc0576709cf7939ea1ebbe4bbcff8",
+      "size": 5349,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/8eff43eab78cc0576709cf7939ea1ebbe4bbcff8"
+    },
+    {
+      "path": "extras/serial_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0753bede518ce3db43f2bbf1366d9c37637369b",
+      "size": 1009,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/c0753bede518ce3db43f2bbf1366d9c37637369b"
+    },
+    {
+      "path": "extras/serial_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86081551bf1b17c0ecc061a936522e7628dff28d",
+      "size": 2894,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/86081551bf1b17c0ecc061a936522e7628dff28d"
+    },
+    {
+      "path": "extras/unit_tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cba65a9888a050cf73e1199987a789f60753ec64",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/cba65a9888a050cf73e1199987a789f60753ec64"
+    },
+    {
+      "path": "extras/unit_tests/decoder_tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cba6b32729723da08ffd2b25f469352adc861748",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/cba6b32729723da08ffd2b25f469352adc861748"
+    },
+    {
+      "path": "extras/unit_tests/decoder_tests/DummyTransport.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "135efcffcc2ecf671146b0d9a70c53f956d7488c",
+      "size": 1647,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/135efcffcc2ecf671146b0d9a70c53f956d7488c"
+    },
+    {
+      "path": "extras/unit_tests/decoder_tests/decoder_tester.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d00627569aedc3a81f4d8403a6d9f553d6a0bd91",
+      "size": 1933,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/d00627569aedc3a81f4d8403a6d9f553d6a0bd91"
+    },
+    {
+      "path": "extras/unit_tests/decoder_tests/decoder_tests.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8559c8387319411e89a0661e1db66e85a9a94d39",
+      "size": 13361,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/8559c8387319411e89a0661e1db66e85a9a94d39"
+    },
+    {
+      "path": "extras/unit_tests/dispatcher_example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "807c2e3b285b7f0d712357c48b229d6e3d0a006c",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/807c2e3b285b7f0d712357c48b229d6e3d0a006c"
+    },
+    {
+      "path": "extras/unit_tests/dispatcher_example/dispatcher_example.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc91968d8ed5a2a4bc888222bbced8f1108037f4",
+      "size": 2000,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/cc91968d8ed5a2a4bc888222bbced8f1108037f4"
+    },
+    {
+      "path": "extras/unit_tests/wrapper_example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9797a07533be070d813df513934d29995442b08",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/a9797a07533be070d813df513934d29995442b08"
+    },
+    {
+      "path": "extras/unit_tests/wrapper_example/wrapper_example.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eed5e684e28578c76960efffe01435e2b2c56701",
+      "size": 2817,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/eed5e684e28578c76960efffe01435e2b2c56701"
+    },
+    {
+      "path": "library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ec23276f7bd6c5a2791be470d209e4c67825537",
+      "size": 562,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/9ec23276f7bd6c5a2791be470d209e4c67825537"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5254c62b29c6529a1b47ade08f7f1a89f56c3035",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/trees/5254c62b29c6529a1b47ade08f7f1a89f56c3035"
+    },
+    {
+      "path": "src/Arduino_RPClite.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57c4899d1f8b99ca1f607d8c55c58d7bd0ebb911",
+      "size": 698,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/57c4899d1f8b99ca1f607d8c55c58d7bd0ebb911"
+    },
+    {
+      "path": "src/SerialTransport.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5009254e0c48953f2f43353b0290e12b1b06c903",
+      "size": 1234,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/5009254e0c48953f2f43353b0290e12b1b06c903"
+    },
+    {
+      "path": "src/client.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50904a0b98c344697e7680859b8fd33e59b1eb38",
+      "size": 2199,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/50904a0b98c344697e7680859b8fd33e59b1eb38"
+    },
+    {
+      "path": "src/decoder.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4351220c09ff05e50ab2f24d53b994def44d38bb",
+      "size": 10217,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/4351220c09ff05e50ab2f24d53b994def44d38bb"
+    },
+    {
+      "path": "src/decoder_manager.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aaa7a393130aa31767a5dd441cbb842a20592cf",
+      "size": 1705,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/6aaa7a393130aa31767a5dd441cbb842a20592cf"
+    },
+    {
+      "path": "src/dispatcher.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ff38909cd0d2609bcb8545e5c6a9be6993df79",
+      "size": 1884,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/72ff38909cd0d2609bcb8545e5c6a9be6993df79"
+    },
+    {
+      "path": "src/error.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d177c52a72e6cdf4228889ac832368f5d1f1dac8",
+      "size": 1055,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/d177c52a72e6cdf4228889ac832368f5d1f1dac8"
+    },
+    {
+      "path": "src/request.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "941dd86b6df7e327809a7186544d177aeea1fdef",
+      "size": 2167,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/941dd86b6df7e327809a7186544d177aeea1fdef"
+    },
+    {
+      "path": "src/rpclite_utils.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaec76cb8c787812b4277e183f3f96127f42af65",
+      "size": 4961,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/aaec76cb8c787812b4277e183f3f96127f42af65"
+    },
+    {
+      "path": "src/server.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72d40b209b7284c1acb194981d37bf7bd0950dd7",
+      "size": 2579,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/72d40b209b7284c1acb194981d37bf7bd0950dd7"
+    },
+    {
+      "path": "src/transport.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "615848c7a5ce0c44bc64255a9edd5bcfa37a81ff",
+      "size": 732,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/615848c7a5ce0c44bc64255a9edd5bcfa37a81ff"
+    },
+    {
+      "path": "src/wrapper.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "feee71e69252b15af86875a8dca19d1e54881b06",
+      "size": 4066,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RPClite/git/blobs/feee71e69252b15af86875a8dca19d1e54881b06"
+    }
+  ],
+  "truncated": false
+}

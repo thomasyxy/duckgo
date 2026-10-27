@@ -1,0 +1,49 @@
+name: Release arduino-router
+
+on:
+  push:
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+*"
+
+env:
+  PROJECT_NAME: "arduino-router"
+  GITHUB_TOKEN: ${{ secrets.ARDUINOBOT_TOKEN }}
+  GITHUB_USERNAME: ArduinoBot
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-22.04]
+        arch: [amd64, arm64]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Set env vars
+        run: |
+          echo "TAG_VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
+          echo "creating tag ${TAG_VERSION}"
+
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+
+      - name: Build deb
+        run: |
+          go tool task build-deb VERSION=${TAG_VERSION} ARCH=${{ matrix.arch }} RELEASE="true"
+
+      - name: Create Github Release and upload artifacts
+        uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          draft: false
+          prerelease: true
+          artifacts: build/*.tar.gz,build/*.deb
+          allowUpdates: true

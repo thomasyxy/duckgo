@@ -1,0 +1,162 @@
+# This file is part of arduino-router.
+#
+# SPDX-FileCopyrightText: Arduino s.r.l. and/or its affiliated companies
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+version: "3"
+vars:
+  GOLANGCI_LINT_VERSION: v2.12.2
+  GOIMPORTS_VERSION: v0.38.0
+  DPRINT_VERSION: 0.50.2
+  VERSION: # if version is not passed we hack the semver by encoding the commit as pre-release
+    sh: echo "${VERSION:-0.0.0-$(git rev-parse --short HEAD)}"
+
+tasks:
+  init:
+    desc: Setup local env
+    deps:
+      - install:linter
+      - install:goimports
+      - install:dprint
+      - install:reuse
+
+  install:linter:
+    cmds:
+      - curl -sSfL https://golangci-lint.run/install.sh | sh -s -- -b .bin/ {{ .GOLANGCI_LINT_VERSION }}
+
+  install:goimports:
+    cmds:
+      - go install golang.org/x/tools/cmd/goimports@{{ .GOIMPORTS_VERSION }}
+
+  install:dprint:
+    cmds:
+      - curl -fsSL https://dprint.dev/install.sh | sh -s {{ .DPRINT_VERSION }}
+      - mkdir -p .bin && cp $HOME/.dprint/bin/dprint .bin/dprint # workaround for local install
+
+  install:reuse:
+    cmds:
+      - uv tool install reuse
+
+  test:
+    desc: Run all go tests
+    cmds:
+      - go test ./... -v -race {{ .CLI_ARGS }}
+
+  test:cover:
+    desc: Run all tests and open cover html report
+    cmds:
+      - task test -- -coverprofile=coverage.out
+      - go tool cover -func=coverage.out
+      - go tool cover -html=coverage.out
+
+  lint:
+    desc: Run all the linters
+    cmds:
+      - task: lint:reuse
+      - task: lint:go
+      - task: lint:fmt
+
+  lint:reuse:
+    desc: Run reuse linter
+    cmds:
+      - uvx reuse lint
+
+  lint:go:
+    desc: Run golangci-lint
+    cmds:
+      - ${PWD}/.bin/golangci-lint run --fix --timeout 300s {{ .CLI_ARGS }}
+
+  fmt:
+    desc: Run format
+    cmds:
+      - goimports -l -w .
+      - ${PWD}/.bin/dprint fmt
+
+  lint:fmt:
+    desc: Check format
+    cmds:
+      - ${PWD}/.bin/dprint check
+
+  build-deb:
+    desc: Build debian package
+    cmds:
+      - docker build --build-arg BINARY_NAME=arduino-router --build-arg DEB_NAME=arduino-router --build-arg VERSION={{ .VERSION }} --build-arg ARCH={{ .ARCH }} --build-arg RELEASE={{ .RELEASE }} --output=./build -f debian/Dockerfile .
+    vars:
+      ARCH: '{{.ARCH | default "arm64"}}'
+
+  release:
+    desc: Create a tag on the current commit and push it to the remote to create the release
+    cmds:
+      - echo "Create tag version {{ .TAG }}"
+      - git tag "{{ .TAG }}"
+      - git push origin "{{ .TAG }}"
+    vars:
+      TAG:
+        sh: |
+          TAGARG="{{.CLI_ARGS}}"
+          if ! echo "$TAGARG" | grep -qE '^v[0-9]+\.[0-9]+\.[0-9]+.*$'; then
+            echo "Error: Version must match pattern 'v[0-9]+.[0-9]+.[0-9]+*'"
+            echo "   Invalid version: $TAGARG"
+            echo "   Valid examples: v1.0.0, v2.1.3, v1.0.0-beta, v3.2.1-rc.1"
+            exit 1
+          fi
+          echo $TAGARG
+  board:install:
+    desc: Install arduino-router on the board
+    interactive: true
+    cmds:
+      - rm ./build/*.deb || true
+      - task: build-deb
+      - adb shell rm /tmp/*.deb || true
+      - adb push ./build/arduino-router_*_arm64.deb /tmp/
+      - ./scripts/run-remote-sudo.sh "dpkg -i /tmp/arduino-router_*_arm64.deb && needrestart -r a"
+
+  update-deb-copyright:
+    desc: Extract project and dependency licenses into asd copyright
+    cmds:
+      - |
+          cat > debian/arduino-router/usr/share/doc/arduino-router/copyright <<EOF
+          SPDX-FileCopyrightText: Arduino s.r.l. and/or its affiliated companies
+          SPDX-License-Identifier: GPL-3.0-or-later
+
+          ---
+
+          EOF
+          cat .licenses/arduino-router/NOTICE  >> debian/arduino-router/usr/share/doc/arduino-router/copyright
+
+  # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/check-dependencies-task/Taskfile.yml
+  general:cache-dep-licenses:
+    desc: Cache dependency license metadata
+    deps:
+      - task: general:prepare-deps
+      - task: update-deb-copyright
+    cmds:
+      - |
+          if
+            ! which licensed \
+            &>/dev/null
+          then
+            if [[ {{OS}} == "windows" ]]; then
+              echo "Licensed does not have Windows support."
+              echo "Please use Linux/macOS or download the dependencies cache from the GitHub Actions workflow artifact."
+            else
+              echo "licensed not found or not in PATH."
+              echo "Please install: https://github.com/licensee/licensed#installation"
+            fi
+            exit 1
+          fi
+      - licensed cache
+      - licensed notices
+
+  # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/check-dependencies-task/Taskfile.yml
+  general:check-dep-licenses:
+    desc: Check for unapproved dependency licenses
+    deps:
+      - task: general:cache-dep-licenses
+    cmds:
+      - licensed status
+
+  # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/check-go-dependencies-task/Taskfile.yml
+  general:prepare-deps:
+    desc: Prepare project dependencies for license check
+    # No preparation is needed for Go module-based projects.

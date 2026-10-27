@@ -1,0 +1,390 @@
+{
+  "sha": "c88788d2ceab939fc5ae707a30c2ba7a8bd06a43",
+  "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/trees/c88788d2ceab939fc5ae707a30c2ba7a8bd06a43",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31e9d00bbc8cf9630eb3c5a40cdc45edb672aa07",
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/trees/31e9d00bbc8cf9630eb3c5a40cdc45edb672aa07"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7337e98651ab609df8e0f904427a9b17fe4f163",
+      "size": 388,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/b7337e98651ab609df8e0f904427a9b17fe4f163"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "478fd608e4cca7fa42946ee119c1c4c29e16a112",
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/trees/478fd608e4cca7fa42946ee119c1c4c29e16a112"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab0417db4b9ef9f0453b19d9c6d4b71a7452c265",
+      "size": 1568,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/ab0417db4b9ef9f0453b19d9c6d4b71a7452c265"
+    },
+    {
+      "path": ".github/workflows/pr-title.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a99900e590091ac04ee5a07e845cfcd54429bb5",
+      "size": 779,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/8a99900e590091ac04ee5a07e845cfcd54429bb5"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2af4816f23c201670aee17e627427315f4cae32",
+      "size": 2737,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/e2af4816f23c201670aee17e627427315f4cae32"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b614602c87073a738b6ed732c08beaced5c3f8c5",
+      "size": 329,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/b614602c87073a738b6ed732c08beaced5c3f8c5"
+    },
+    {
+      "path": ".licensed.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f52da0f24a5b7809de1d3207d71ebd70f9dee11",
+      "size": 579,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/1f52da0f24a5b7809de1d3207d71ebd70f9dee11"
+    },
+    {
+      "path": ".licenses",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c179995b287dbd012501548fed894ef3569dca15",
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/trees/c179995b287dbd012501548fed894ef3569dca15"
+    },
+    {
+      "path": ".licenses/pip",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "76c13abd90b414e71017b4ade3466fcfee4a6233",
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/trees/76c13abd90b414e71017b4ade3466fcfee4a6233"
+    },
+    {
+      "path": ".licenses/pip/msgpack.dep.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9ef5e9dbd31b5e0cccd7a2768183d0247a81f70",
+      "size": 836,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/d9ef5e9dbd31b5e0cccd7a2768183d0247a81f70"
+    },
+    {
+      "path": ".python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24ee5b1be9961e38a503c8e764b7385dbb6ba124",
+      "size": 5,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/24ee5b1be9961e38a503c8e764b7385dbb6ba124"
+    },
+    {
+      "path": ".release-please-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "210d29039e4f0e8d5f8b12ce2e8d3e43e6cdebed",
+      "size": 19,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/210d29039e4f0e8d5f8b12ce2e8d3e43e6cdebed"
+    },
+    {
+      "path": ".tool-versions",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a75f84a4cd8fbf4a96e1b5eab72e1b3de737b326",
+      "size": 14,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/a75f84a4cd8fbf4a96e1b5eab72e1b3de737b326"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92ad4e54af020590238aa52519b8798de637be00",
+      "size": 8912,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/92ad4e54af020590238aa52519b8798de637be00"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "size": 16726,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/d0a1fa1482eea82e19510e7920cbe3a03e41f691"
+    },
+    {
+      "path": "LICENSES",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bfbc5790a14eea99a120414724dc006f09045e62",
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/trees/bfbc5790a14eea99a120414724dc006f09045e62"
+    },
+    {
+      "path": "LICENSES/MPL-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "size": 16726,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/d0a1fa1482eea82e19510e7920cbe3a03e41f691"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10cb1d193d1e115ba234f9374650a82067b7e69a",
+      "size": 5890,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/10cb1d193d1e115ba234f9374650a82067b7e69a"
+    },
+    {
+      "path": "REUSE.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e2e0d2e9836a6f57c70e3350dd62f0384ff51d0",
+      "size": 494,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/6e2e0d2e9836a6f57c70e3350dd62f0384ff51d0"
+    },
+    {
+      "path": "Taskfile.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84088fee600ff81aa54890b0bb7909b0eb8af156",
+      "size": 2615,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/84088fee600ff81aa54890b0bb7909b0eb8af156"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ac7ad4cbde77f077cdcc326c6a139175a7fb37c",
+      "size": 1311,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/1ac7ad4cbde77f077cdcc326c6a139175a7fb37c"
+    },
+    {
+      "path": "release-please-config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4139b03093814d44b3008f637431fac421ad4b6f",
+      "size": 1070,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/4139b03093814d44b3008f637431fac421ad4b6f"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3f986299f771c3bfed5e08801c260b1700087c3",
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/trees/a3f986299f771c3bfed5e08801c260b1700087c3"
+    },
+    {
+      "path": "src/arduino",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b49a95e7a69f050bd52002ed59b36ac216c0888",
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/trees/4b49a95e7a69f050bd52002ed59b36ac216c0888"
+    },
+    {
+      "path": "src/arduino/router_bridge",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b18f3553c82d27d6955347571f6fb9dd961be206",
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/trees/b18f3553c82d27d6955347571f6fb9dd961be206"
+    },
+    {
+      "path": "src/arduino/router_bridge/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dbdde6fc723d6b6a1ae5268f496b22d2f24f085",
+      "size": 446,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/2dbdde6fc723d6b6a1ae5268f496b22d2f24f085"
+    },
+    {
+      "path": "src/arduino/router_bridge/bridge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aebc1271378b918e8cf7ed108fbffb0c1ca6718d",
+      "size": 8011,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/aebc1271378b918e8cf7ed108fbffb0c1ca6718d"
+    },
+    {
+      "path": "src/arduino/router_bridge/connection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b211cbc330bcdab0e74d1d2bc4481a9a419452e",
+      "size": 18663,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/7b211cbc330bcdab0e74d1d2bc4481a9a419452e"
+    },
+    {
+      "path": "src/arduino/router_bridge/dispatch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1f4a65b0cd8637f1946784069f4ea4f7b4f53f3",
+      "size": 4752,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/b1f4a65b0cd8637f1946784069f4ea4f7b4f53f3"
+    },
+    {
+      "path": "src/arduino/router_bridge/pending.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c7b5f9cb8a3c434557e2b13e28b7146c81b9b90",
+      "size": 1706,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/5c7b5f9cb8a3c434557e2b13e28b7146c81b9b90"
+    },
+    {
+      "path": "src/arduino/router_bridge/protocol.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bf36f10a70c302d712a79ac04ba5ee01bdb1c6c",
+      "size": 3186,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/1bf36f10a70c302d712a79ac04ba5ee01bdb1c6c"
+    },
+    {
+      "path": "src/arduino/router_bridge/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/arduino/router_bridge/transport.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ae4ff2d37b63642f4e8bfaf095ac1aa348cc56b",
+      "size": 6041,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/7ae4ff2d37b63642f4e8bfaf095ac1aa348cc56b"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89f5f9c6831a7d33afc9945009205d940c3b4ef4",
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/trees/89f5f9c6831a7d33afc9945009205d940c3b4ef4"
+    },
+    {
+      "path": "tests/test_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baf6914a31fecb2b95b957c2896d5323a2a52b31",
+      "size": 13884,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/baf6914a31fecb2b95b957c2896d5323a2a52b31"
+    },
+    {
+      "path": "tests/test_unit_bridge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "769fcf65fb10e938299cc0cefa929120cec4c06e",
+      "size": 4534,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/769fcf65fb10e938299cc0cefa929120cec4c06e"
+    },
+    {
+      "path": "tests/test_unit_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce02db7875dc52e57d033f73c26f146ba26551a6",
+      "size": 2716,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/ce02db7875dc52e57d033f73c26f146ba26551a6"
+    },
+    {
+      "path": "tests/test_unit_connection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4fc186bebe24efbd955afb2adba70f67611c6a0",
+      "size": 13082,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/f4fc186bebe24efbd955afb2adba70f67611c6a0"
+    },
+    {
+      "path": "tests/test_unit_core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8876c90da95e16d7c03ac92dc82f9722f90db5be",
+      "size": 5722,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/8876c90da95e16d7c03ac92dc82f9722f90db5be"
+    },
+    {
+      "path": "tests/test_unit_dispatch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efcc88f70965c557c3ca2f6e8afc10e952b77f0c",
+      "size": 6080,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/efcc88f70965c557c3ca2f6e8afc10e952b77f0c"
+    },
+    {
+      "path": "tests/test_unit_errors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f04e3a1a7e47f26c260b19f8dafd56d60005d3a2",
+      "size": 2741,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/f04e3a1a7e47f26c260b19f8dafd56d60005d3a2"
+    },
+    {
+      "path": "tests/test_unit_handle_msg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c4c4f4670ee15a1224ee4bd29bf2ef10df39354",
+      "size": 7045,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/6c4c4f4670ee15a1224ee4bd29bf2ef10df39354"
+    },
+    {
+      "path": "tests/test_unit_lifecycle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "442353d343f349937325b05d5157bdd1a26c04f2",
+      "size": 6304,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/442353d343f349937325b05d5157bdd1a26c04f2"
+    },
+    {
+      "path": "tests/test_unit_pending.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2823ad00c2175bdac55a625a1ea611ac7f776db",
+      "size": 3268,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/e2823ad00c2175bdac55a625a1ea611ac7f776db"
+    },
+    {
+      "path": "tests/test_unit_protocol.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40210fff8874fa8e263eac689bd562d440bef096",
+      "size": 3934,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/40210fff8874fa8e263eac689bd562d440bef096"
+    },
+    {
+      "path": "tests/test_unit_registration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d09b02940938d199ca3857ba1f6671fec4d04193",
+      "size": 4560,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/d09b02940938d199ca3857ba1f6671fec4d04193"
+    },
+    {
+      "path": "tests/test_unit_transport.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20e24c77ab8adc23b4bfb4aef251a03b340a8af7",
+      "size": 7783,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/20e24c77ab8adc23b4bfb4aef251a03b340a8af7"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8196c4ffe8331fe06c252c161fd1e2cd6c662806",
+      "size": 143569,
+      "url": "https://api.github.com/repos/arduino/arduino-router-bridge-py/git/blobs/8196c4ffe8331fe06c252c161fd1e2cd6c662806"
+    }
+  ],
+  "truncated": false
+}

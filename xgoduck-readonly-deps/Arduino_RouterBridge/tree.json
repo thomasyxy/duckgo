@@ -1,0 +1,417 @@
+{
+  "sha": "d681b87211864148367f2d77096ae84c5badcb2f",
+  "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/d681b87211864148367f2d77096ae84c5badcb2f",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4595eea780e24d2bfd70ee209695ffab39ab076a",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/4595eea780e24d2bfd70ee209695ffab39ab076a"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e92846aa29a6ff2815c090e9957cd127988a4029",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/e92846aa29a6ff2815c090e9957cd127988a4029"
+    },
+    {
+      "path": ".github/workflows/arduino-lint.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09c47e20d2407ff90905e5b9686ebbd244e44d72",
+      "size": 771,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/09c47e20d2407ff90905e5b9686ebbd244e44d72"
+    },
+    {
+      "path": ".github/workflows/compile-examples.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "478b3f373bde112d8f83fef771fc13d914a1f941",
+      "size": 2293,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/478b3f373bde112d8f83fef771fc13d914a1f941"
+    },
+    {
+      "path": ".github/workflows/report-size-deltas.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d771b0d7cf0ae67f4b1c5135b0040af039fb17ee",
+      "size": 842,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/d771b0d7cf0ae67f4b1c5135b0040af039fb17ee"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bc50b17f9758e6815ef165381a8356c63514bb8",
+      "size": 29,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/8bc50b17f9758e6815ef165381a8356c63514bb8"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa0086a952236971ab37901954d596efae9f4af6",
+      "size": 16724,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/fa0086a952236971ab37901954d596efae9f4af6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aed8ea69ca2f1b09ecf4dc02620595e68743d936",
+      "size": 3021,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/aed8ea69ca2f1b09ecf4dc02620595e68743d936"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7f75e3985e717cbc68c5e6d33a0b3aa744574f2",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/e7f75e3985e717cbc68c5e6d33a0b3aa744574f2"
+    },
+    {
+      "path": "examples/client",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a02239f163e4459dc84f84ca74d37effe7bde92",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/5a02239f163e4459dc84f84ca74d37effe7bde92"
+    },
+    {
+      "path": "examples/client/client.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "108d99c039fd538b4ca23d65447d61fdcf6bb12f",
+      "size": 1548,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/108d99c039fd538b4ca23d65447d61fdcf6bb12f"
+    },
+    {
+      "path": "examples/hci",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3851f0f26f079e0f3dba76148315513396a5cc52",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/3851f0f26f079e0f3dba76148315513396a5cc52"
+    },
+    {
+      "path": "examples/hci/hci.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dfb0378247e393852ee7d4d4d333ccd4722060d",
+      "size": 2886,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/7dfb0378247e393852ee7d4d4d333ccd4722060d"
+    },
+    {
+      "path": "examples/monitor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da537b6c3f5774ae09e29e1f9a7eec536773c034",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/da537b6c3f5774ae09e29e1f9a7eec536773c034"
+    },
+    {
+      "path": "examples/monitor/monitor.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "618ea9a83a52c833ecb623f4e6d0b679dbe0b291",
+      "size": 1399,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/618ea9a83a52c833ecb623f4e6d0b679dbe0b291"
+    },
+    {
+      "path": "examples/server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37faf83abe74e8c6033c26a4786ef98b00c04e93",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/37faf83abe74e8c6033c26a4786ef98b00c04e93"
+    },
+    {
+      "path": "examples/server/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "978941dfd9351d228f827ded2590b16de844f181",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/978941dfd9351d228f827ded2590b16de844f181"
+    },
+    {
+      "path": "examples/server/python/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a72b641b2a86b620b4b22e89ae0045cb3232719f",
+      "size": 686,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/a72b641b2a86b620b4b22e89ae0045cb3232719f"
+    },
+    {
+      "path": "examples/server/server.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e4aad2d30d2d3df37ae6003aaffb88764b66b52",
+      "size": 1222,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/0e4aad2d30d2d3df37ae6003aaffb88764b66b52"
+    },
+    {
+      "path": "examples/udp_ntp_client",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aee9bc8805df39c8534a1178939128c469b79953",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/aee9bc8805df39c8534a1178939128c469b79953"
+    },
+    {
+      "path": "examples/udp_ntp_client/udp_ntp_client.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d479dad46fd2206ac9c21d0f0839014195b796e7",
+      "size": 4328,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/d479dad46fd2206ac9c21d0f0839014195b796e7"
+    },
+    {
+      "path": "extras",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a98fd06d68f0cfff6caab452002a7e6c1a67c4a9",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/a98fd06d68f0cfff6caab452002a7e6c1a67c4a9"
+    },
+    {
+      "path": "extras/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81bc8f60a6b31e3757eeb8b0ac900578290961a9",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/81bc8f60a6b31e3757eeb8b0ac900578290961a9"
+    },
+    {
+      "path": "extras/test/callbacks_test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5a972a5cdb6afdb6521f86f7b573150f4651da9",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/e5a972a5cdb6afdb6521f86f7b573150f4651da9"
+    },
+    {
+      "path": "extras/test/callbacks_test/callbacks_test.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7af6dfc3df36e5d4957327ee38648d289b96aac",
+      "size": 3507,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/d7af6dfc3df36e5d4957327ee38648d289b96aac"
+    },
+    {
+      "path": "extras/test/callbacks_test/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79f18049a398caaa8f741ae630ffca1f0e819ab7",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/79f18049a398caaa8f741ae630ffca1f0e819ab7"
+    },
+    {
+      "path": "extras/test/callbacks_test/python/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7c53387a94ecbb7ee43939b1d5dd08a2f3412cd",
+      "size": 1087,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/b7c53387a94ecbb7ee43939b1d5dd08a2f3412cd"
+    },
+    {
+      "path": "extras/test/clientSSL",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34a6c888db2f6274bf345302f579af0e568fcd46",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/34a6c888db2f6274bf345302f579af0e568fcd46"
+    },
+    {
+      "path": "extras/test/clientSSL/clientSSL.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1133f69095bf58510fe1f3ae1a42f76d312239f4",
+      "size": 2325,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/1133f69095bf58510fe1f3ae1a42f76d312239f4"
+    },
+    {
+      "path": "extras/test/test_rpc_thread",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a48d41442c8b0bf957ce2b8c448a6220a6ca07f",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/6a48d41442c8b0bf957ce2b8c448a6220a6ca07f"
+    },
+    {
+      "path": "extras/test/test_rpc_thread/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e85a4c13b0bd2e6f4527df58bdc7741998621b2",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/2e85a4c13b0bd2e6f4527df58bdc7741998621b2"
+    },
+    {
+      "path": "extras/test/test_rpc_thread/python/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35a0d2f6f11e9c8362e968ba12900307c6f9ad30",
+      "size": 274,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/35a0d2f6f11e9c8362e968ba12900307c6f9ad30"
+    },
+    {
+      "path": "extras/test/test_rpc_thread/test_rpc_thread.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8617b318d113cefa2b606d89514b32d9cb55582",
+      "size": 3884,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/f8617b318d113cefa2b606d89514b32d9cb55582"
+    },
+    {
+      "path": "extras/test/test_serial_alias_monitor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de307f2729fadf2d73a1ae144914f2ac567d93a7",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/de307f2729fadf2d73a1ae144914f2ac567d93a7"
+    },
+    {
+      "path": "extras/test/test_serial_alias_monitor/test_serial_alias_monitor.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96b8daafff53a17ee37095b6b1f51b9d332efb24",
+      "size": 1136,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/96b8daafff53a17ee37095b6b1f51b9d332efb24"
+    },
+    {
+      "path": "extras/test/udp_echo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee3457b66bc6472603222f9390743f43b1ca8743",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/ee3457b66bc6472603222f9390743f43b1ca8743"
+    },
+    {
+      "path": "extras/test/udp_echo/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa4259b8a23520d43f3c65d31bf726763e8b1320",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/fa4259b8a23520d43f3c65d31bf726763e8b1320"
+    },
+    {
+      "path": "extras/test/udp_echo/python/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b64d50651cf8beeeef473ddd9c96f5b11c992bc",
+      "size": 8167,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/7b64d50651cf8beeeef473ddd9c96f5b11c992bc"
+    },
+    {
+      "path": "extras/test/udp_echo/udp_echo.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0ab7300d4a9d733852c2d7ccc7053b8bee376ad",
+      "size": 5973,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/b0ab7300d4a9d733852c2d7ccc7053b8bee376ad"
+    },
+    {
+      "path": "extras/test/udp_test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a854926e6807cbe648a376ac43ee3b54f21a03a7",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/a854926e6807cbe648a376ac43ee3b54f21a03a7"
+    },
+    {
+      "path": "extras/test/udp_test/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b7821d26d98eb5f8f7cb59766f7c6154e47c8a6",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/6b7821d26d98eb5f8f7cb59766f7c6154e47c8a6"
+    },
+    {
+      "path": "extras/test/udp_test/python/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eda662c18d22c8181777f242d43effb05dacf8e",
+      "size": 9945,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/2eda662c18d22c8181777f242d43effb05dacf8e"
+    },
+    {
+      "path": "extras/test/udp_test/udp_test.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "596cc7c2bc374276310a8ca93ac87cc0ac01de61",
+      "size": 10330,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/596cc7c2bc374276310a8ca93ac87cc0ac01de61"
+    },
+    {
+      "path": "library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7a8624d6ad7a6f977301febcece8bab3ca0f884",
+      "size": 417,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/a7a8624d6ad7a6f977301febcece8bab3ca0f884"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e88b2725433a77c48516b66862457a1cb6dd6df",
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/trees/3e88b2725433a77c48516b66862457a1cb6dd6df"
+    },
+    {
+      "path": "src/Arduino_RouterBridge.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71348922fbe9f32331e7dd4424117a471e36b802",
+      "size": 562,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/71348922fbe9f32331e7dd4424117a471e36b802"
+    },
+    {
+      "path": "src/bridge.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30687be484b68b8ef726afee1560f5de1bb4402b",
+      "size": 9487,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/30687be484b68b8ef726afee1560f5de1bb4402b"
+    },
+    {
+      "path": "src/hci.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c78a6eb56dc0b9a8bf7c68cebef8abb47ef545a",
+      "size": 4284,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/2c78a6eb56dc0b9a8bf7c68cebef8abb47ef545a"
+    },
+    {
+      "path": "src/monitor.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6d355edbb582cf3a7d568de69cce6c1ad357ed7",
+      "size": 5078,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/b6d355edbb582cf3a7d568de69cce6c1ad357ed7"
+    },
+    {
+      "path": "src/routerbridge_provides_serial.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5675197b6115d7c07c3644e24e8ee8aaacefd991",
+      "size": 638,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/5675197b6115d7c07c3644e24e8ee8aaacefd991"
+    },
+    {
+      "path": "src/singletons.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02ccf16415d5419941b6ffcbab1bda07dc89fdec",
+      "size": 696,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/02ccf16415d5419941b6ffcbab1bda07dc89fdec"
+    },
+    {
+      "path": "src/tcp_client.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84df9d28e7d9f05d68ceda5ede94ac3e0c072271",
+      "size": 6117,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/84df9d28e7d9f05d68ceda5ede94ac3e0c072271"
+    },
+    {
+      "path": "src/tcp_server.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc863a66f9db94db352c9fdae597b28003fd2036",
+      "size": 4294,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/dc863a66f9db94db352c9fdae597b28003fd2036"
+    },
+    {
+      "path": "src/udp_bridge.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b99a2fb577c0262d26f143c38299ff38fba0c12c",
+      "size": 9089,
+      "url": "https://api.github.com/repos/arduino-libraries/Arduino_RouterBridge/git/blobs/b99a2fb577c0262d26f143c38299ff38fba0c12c"
+    }
+  ],
+  "truncated": false
+}
