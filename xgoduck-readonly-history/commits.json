@@ -1,0 +1,488 @@
+[
+  {
+    "sha": "8837d5a3bc7cf3746f6da2b55c7b9191026b9838",
+    "node_id": "C_kwDOUo51_9oAKDg4MzdkNWEzYmM3Y2YzNzQ2ZjZkYTJiNTVjN2I5MTkxMDI2Yjk4Mzg",
+    "commit": {
+      "author": {
+        "name": "Lintao-HIT",
+        "email": "lintao6324@gmail.com",
+        "date": "2026-10-23T10:14:19Z"
+      },
+      "committer": {
+        "name": "Lintao-HIT",
+        "email": "lintao6324@gmail.com",
+        "date": "2026-10-23T10:14:19Z"
+      },
+      "message": "Add roller walking controls and simplify the user guide",
+      "tree": {
+        "sha": "c587d20967108bb837c9afc9f1d411ee73b7e163",
+        "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/trees/c587d20967108bb837c9afc9f1d411ee73b7e163"
+      },
+      "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/commits/8837d5a3bc7cf3746f6da2b55c7b9191026b9838",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/8837d5a3bc7cf3746f6da2b55c7b9191026b9838",
+    "html_url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino/commit/8837d5a3bc7cf3746f6da2b55c7b9191026b9838",
+    "comments_url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/8837d5a3bc7cf3746f6da2b55c7b9191026b9838/comments",
+    "author": {
+      "login": "Lintao-HIT",
+      "id": 205631568,
+      "node_id": "U_kgDODEGwUA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205631568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Lintao-HIT",
+      "html_url": "https://github.com/Lintao-HIT",
+      "followers_url": "https://api.github.com/users/Lintao-HIT/followers",
+      "following_url": "https://api.github.com/users/Lintao-HIT/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lintao-HIT/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lintao-HIT/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lintao-HIT/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lintao-HIT/orgs",
+      "repos_url": "https://api.github.com/users/Lintao-HIT/repos",
+      "events_url": "https://api.github.com/users/Lintao-HIT/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lintao-HIT/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Lintao-HIT",
+      "id": 205631568,
+      "node_id": "U_kgDODEGwUA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205631568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Lintao-HIT",
+      "html_url": "https://github.com/Lintao-HIT",
+      "followers_url": "https://api.github.com/users/Lintao-HIT/followers",
+      "following_url": "https://api.github.com/users/Lintao-HIT/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lintao-HIT/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lintao-HIT/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lintao-HIT/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lintao-HIT/orgs",
+      "repos_url": "https://api.github.com/users/Lintao-HIT/repos",
+      "events_url": "https://api.github.com/users/Lintao-HIT/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lintao-HIT/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "466512e9426f61fb07d9be9b3f20df0171692150",
+        "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/466512e9426f61fb07d9be9b3f20df0171692150",
+        "html_url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino/commit/466512e9426f61fb07d9be9b3f20df0171692150"
+      }
+    ]
+  },
+  {
+    "sha": "466512e9426f61fb07d9be9b3f20df0171692150",
+    "node_id": "C_kwDOUo51_9oAKDQ2NjUxMmU5NDI2ZjYxZmIwN2Q5YmU5YjNmMjBkZjAxNzE2OTIxNTA",
+    "commit": {
+      "author": {
+        "name": "Lintao-HIT",
+        "email": "lintao6324@gmail.com",
+        "date": "2026-10-22T09:00:18Z"
+      },
+      "committer": {
+        "name": "Lintao-HIT",
+        "email": "lintao6324@gmail.com",
+        "date": "2026-10-22T09:00:18Z"
+      },
+      "message": "Update XGO Duck runtime and servo protection setup\n\nSync the clean UNO Q app with the current local release, including the updated walking policy and default pose, joystick smoothing, fixed encoder center and calibration, and independent broadcast protection/current controls with a 1.5 A default.\n\nRemove obsolete test and measurement scripts from the distributed project.",
+      "tree": {
+        "sha": "7967b018306c1fbfdaffd2a80c78162b81366211",
+        "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/trees/7967b018306c1fbfdaffd2a80c78162b81366211"
+      },
+      "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/commits/466512e9426f61fb07d9be9b3f20df0171692150",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/466512e9426f61fb07d9be9b3f20df0171692150",
+    "html_url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino/commit/466512e9426f61fb07d9be9b3f20df0171692150",
+    "comments_url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/466512e9426f61fb07d9be9b3f20df0171692150/comments",
+    "author": {
+      "login": "Lintao-HIT",
+      "id": 205631568,
+      "node_id": "U_kgDODEGwUA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205631568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Lintao-HIT",
+      "html_url": "https://github.com/Lintao-HIT",
+      "followers_url": "https://api.github.com/users/Lintao-HIT/followers",
+      "following_url": "https://api.github.com/users/Lintao-HIT/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lintao-HIT/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lintao-HIT/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lintao-HIT/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lintao-HIT/orgs",
+      "repos_url": "https://api.github.com/users/Lintao-HIT/repos",
+      "events_url": "https://api.github.com/users/Lintao-HIT/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lintao-HIT/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Lintao-HIT",
+      "id": 205631568,
+      "node_id": "U_kgDODEGwUA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205631568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Lintao-HIT",
+      "html_url": "https://github.com/Lintao-HIT",
+      "followers_url": "https://api.github.com/users/Lintao-HIT/followers",
+      "following_url": "https://api.github.com/users/Lintao-HIT/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lintao-HIT/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lintao-HIT/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lintao-HIT/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lintao-HIT/orgs",
+      "repos_url": "https://api.github.com/users/Lintao-HIT/repos",
+      "events_url": "https://api.github.com/users/Lintao-HIT/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lintao-HIT/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9dc36787bc61b102c2da0f97c9c758e639e90ab8",
+        "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/9dc36787bc61b102c2da0f97c9c758e639e90ab8",
+        "html_url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino/commit/9dc36787bc61b102c2da0f97c9c758e639e90ab8"
+      }
+    ]
+  },
+  {
+    "sha": "9dc36787bc61b102c2da0f97c9c758e639e90ab8",
+    "node_id": "C_kwDOUo51_9oAKDlkYzM2Nzg3YmM2MWIxMDJjMmRhMGY5N2M5Yzc1OGU2MzllOTBhYjg",
+    "commit": {
+      "author": {
+        "name": "lishinian",
+        "email": "lishinian90@126.com",
+        "date": "2026-10-12T06:05:19Z"
+      },
+      "committer": {
+        "name": "lishinian",
+        "email": "lishinian90@126.com",
+        "date": "2026-10-12T06:05:19Z"
+      },
+      "message": "Add servo scanning functionality",
+      "tree": {
+        "sha": "f0d7f3d795c7faf4e015c809cfe1aeb98ff9d95c",
+        "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/trees/f0d7f3d795c7faf4e015c809cfe1aeb98ff9d95c"
+      },
+      "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/commits/9dc36787bc61b102c2da0f97c9c758e639e90ab8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/9dc36787bc61b102c2da0f97c9c758e639e90ab8",
+    "html_url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino/commit/9dc36787bc61b102c2da0f97c9c758e639e90ab8",
+    "comments_url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/9dc36787bc61b102c2da0f97c9c758e639e90ab8/comments",
+    "author": {
+      "login": "lishinian",
+      "id": 6082031,
+      "node_id": "MDQ6VXNlcjYwODIwMzE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6082031?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lishinian",
+      "html_url": "https://github.com/lishinian",
+      "followers_url": "https://api.github.com/users/lishinian/followers",
+      "following_url": "https://api.github.com/users/lishinian/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lishinian/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lishinian/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lishinian/subscriptions",
+      "organizations_url": "https://api.github.com/users/lishinian/orgs",
+      "repos_url": "https://api.github.com/users/lishinian/repos",
+      "events_url": "https://api.github.com/users/lishinian/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lishinian/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lishinian",
+      "id": 6082031,
+      "node_id": "MDQ6VXNlcjYwODIwMzE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6082031?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lishinian",
+      "html_url": "https://github.com/lishinian",
+      "followers_url": "https://api.github.com/users/lishinian/followers",
+      "following_url": "https://api.github.com/users/lishinian/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lishinian/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lishinian/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lishinian/subscriptions",
+      "organizations_url": "https://api.github.com/users/lishinian/orgs",
+      "repos_url": "https://api.github.com/users/lishinian/repos",
+      "events_url": "https://api.github.com/users/lishinian/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lishinian/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8cdbbd84710d856581982c9eaf0d5e2970666232",
+        "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/8cdbbd84710d856581982c9eaf0d5e2970666232",
+        "html_url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino/commit/8cdbbd84710d856581982c9eaf0d5e2970666232"
+      }
+    ]
+  },
+  {
+    "sha": "8cdbbd84710d856581982c9eaf0d5e2970666232",
+    "node_id": "C_kwDOUo51_9oAKDhjZGJiZDg0NzEwZDg1NjU4MTk4MmM5ZWFmMGQ1ZTI5NzA2NjYyMzI",
+    "commit": {
+      "author": {
+        "name": "Lintao-HIT",
+        "email": "lintao6324@gmail.com",
+        "date": "2026-09-30T06:02:31Z"
+      },
+      "committer": {
+        "name": "Lintao-HIT",
+        "email": "lintao6324@gmail.com",
+        "date": "2026-09-30T06:02:31Z"
+      },
+      "message": "add forward roll",
+      "tree": {
+        "sha": "2fc8e11c4059f0ca243873d020e20c8a21836bdb",
+        "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/trees/2fc8e11c4059f0ca243873d020e20c8a21836bdb"
+      },
+      "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/commits/8cdbbd84710d856581982c9eaf0d5e2970666232",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/8cdbbd84710d856581982c9eaf0d5e2970666232",
+    "html_url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino/commit/8cdbbd84710d856581982c9eaf0d5e2970666232",
+    "comments_url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/8cdbbd84710d856581982c9eaf0d5e2970666232/comments",
+    "author": {
+      "login": "Lintao-HIT",
+      "id": 205631568,
+      "node_id": "U_kgDODEGwUA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205631568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Lintao-HIT",
+      "html_url": "https://github.com/Lintao-HIT",
+      "followers_url": "https://api.github.com/users/Lintao-HIT/followers",
+      "following_url": "https://api.github.com/users/Lintao-HIT/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lintao-HIT/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lintao-HIT/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lintao-HIT/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lintao-HIT/orgs",
+      "repos_url": "https://api.github.com/users/Lintao-HIT/repos",
+      "events_url": "https://api.github.com/users/Lintao-HIT/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lintao-HIT/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Lintao-HIT",
+      "id": 205631568,
+      "node_id": "U_kgDODEGwUA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/205631568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Lintao-HIT",
+      "html_url": "https://github.com/Lintao-HIT",
+      "followers_url": "https://api.github.com/users/Lintao-HIT/followers",
+      "following_url": "https://api.github.com/users/Lintao-HIT/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Lintao-HIT/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Lintao-HIT/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Lintao-HIT/subscriptions",
+      "organizations_url": "https://api.github.com/users/Lintao-HIT/orgs",
+      "repos_url": "https://api.github.com/users/Lintao-HIT/repos",
+      "events_url": "https://api.github.com/users/Lintao-HIT/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Lintao-HIT/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a6dc9f98eae6f8cc8f2bac81a97dde5a7a8bd0d2",
+        "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/a6dc9f98eae6f8cc8f2bac81a97dde5a7a8bd0d2",
+        "html_url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino/commit/a6dc9f98eae6f8cc8f2bac81a97dde5a7a8bd0d2"
+      }
+    ]
+  },
+  {
+    "sha": "a6dc9f98eae6f8cc8f2bac81a97dde5a7a8bd0d2",
+    "node_id": "C_kwDOUo51_9oAKGE2ZGM5Zjk4ZWFlNmY4Y2M4ZjJiYWM4MWE5N2RkZTVhN2E4YmQwZDI",
+    "commit": {
+      "author": {
+        "name": "Lintao-HIT",
+        "email": "1207076985@qq.com",
+        "date": "2026-09-24T08:38:56Z"
+      },
+      "committer": {
+        "name": "Lintao-HIT",
+        "email": "1207076985@qq.com",
+        "date": "2026-09-24T08:38:56Z"
+      },
+      "message": "Clarify the README attribution and drop the unused datasheet link.\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+      "tree": {
+        "sha": "f36d3fee89c0dcb4fd459b9ddc8e377cb2210b06",
+        "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/trees/f36d3fee89c0dcb4fd459b9ddc8e377cb2210b06"
+      },
+      "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/commits/a6dc9f98eae6f8cc8f2bac81a97dde5a7a8bd0d2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/a6dc9f98eae6f8cc8f2bac81a97dde5a7a8bd0d2",
+    "html_url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino/commit/a6dc9f98eae6f8cc8f2bac81a97dde5a7a8bd0d2",
+    "comments_url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/a6dc9f98eae6f8cc8f2bac81a97dde5a7a8bd0d2/comments",
+    "author": {
+      "login": "Pony-Express",
+      "id": 37019862,
+      "node_id": "MDQ6VXNlcjM3MDE5ODYy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37019862?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Pony-Express",
+      "html_url": "https://github.com/Pony-Express",
+      "followers_url": "https://api.github.com/users/Pony-Express/followers",
+      "following_url": "https://api.github.com/users/Pony-Express/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Pony-Express/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Pony-Express/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Pony-Express/subscriptions",
+      "organizations_url": "https://api.github.com/users/Pony-Express/orgs",
+      "repos_url": "https://api.github.com/users/Pony-Express/repos",
+      "events_url": "https://api.github.com/users/Pony-Express/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Pony-Express/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Pony-Express",
+      "id": 37019862,
+      "node_id": "MDQ6VXNlcjM3MDE5ODYy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37019862?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Pony-Express",
+      "html_url": "https://github.com/Pony-Express",
+      "followers_url": "https://api.github.com/users/Pony-Express/followers",
+      "following_url": "https://api.github.com/users/Pony-Express/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Pony-Express/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Pony-Express/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Pony-Express/subscriptions",
+      "organizations_url": "https://api.github.com/users/Pony-Express/orgs",
+      "repos_url": "https://api.github.com/users/Pony-Express/repos",
+      "events_url": "https://api.github.com/users/Pony-Express/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Pony-Express/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5f1954aff0df12733b69bc8405fac177a4cd9c60",
+        "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/5f1954aff0df12733b69bc8405fac177a4cd9c60",
+        "html_url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino/commit/5f1954aff0df12733b69bc8405fac177a4cd9c60"
+      }
+    ]
+  },
+  {
+    "sha": "5f1954aff0df12733b69bc8405fac177a4cd9c60",
+    "node_id": "C_kwDOUo51_9oAKDVmMTk1NGFmZjBkZjEyNzMzYjY5YmM4NDA1ZmFjMTc3YTRjZDljNjA",
+    "commit": {
+      "author": {
+        "name": "Lintao-HIT",
+        "email": "1207076985@qq.com",
+        "date": "2026-09-22T13:12:25Z"
+      },
+      "committer": {
+        "name": "Lintao-HIT",
+        "email": "1207076985@qq.com",
+        "date": "2026-09-22T13:12:25Z"
+      },
+      "message": "Initial commit: XGO Duck Arduino Uno Q app runtime.\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+      "tree": {
+        "sha": "713fcd8c6fa89de3bb68f58552e6fb015027ca10",
+        "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/trees/713fcd8c6fa89de3bb68f58552e6fb015027ca10"
+      },
+      "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/git/commits/5f1954aff0df12733b69bc8405fac177a4cd9c60",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/5f1954aff0df12733b69bc8405fac177a4cd9c60",
+    "html_url": "https://github.com/LuwuDynamics/xgoduck_runtime_arduino/commit/5f1954aff0df12733b69bc8405fac177a4cd9c60",
+    "comments_url": "https://api.github.com/repos/LuwuDynamics/xgoduck_runtime_arduino/commits/5f1954aff0df12733b69bc8405fac177a4cd9c60/comments",
+    "author": {
+      "login": "Pony-Express",
+      "id": 37019862,
+      "node_id": "MDQ6VXNlcjM3MDE5ODYy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37019862?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Pony-Express",
+      "html_url": "https://github.com/Pony-Express",
+      "followers_url": "https://api.github.com/users/Pony-Express/followers",
+      "following_url": "https://api.github.com/users/Pony-Express/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Pony-Express/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Pony-Express/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Pony-Express/subscriptions",
+      "organizations_url": "https://api.github.com/users/Pony-Express/orgs",
+      "repos_url": "https://api.github.com/users/Pony-Express/repos",
+      "events_url": "https://api.github.com/users/Pony-Express/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Pony-Express/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Pony-Express",
+      "id": 37019862,
+      "node_id": "MDQ6VXNlcjM3MDE5ODYy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37019862?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Pony-Express",
+      "html_url": "https://github.com/Pony-Express",
+      "followers_url": "https://api.github.com/users/Pony-Express/followers",
+      "following_url": "https://api.github.com/users/Pony-Express/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Pony-Express/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Pony-Express/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Pony-Express/subscriptions",
+      "organizations_url": "https://api.github.com/users/Pony-Express/orgs",
+      "repos_url": "https://api.github.com/users/Pony-Express/repos",
+      "events_url": "https://api.github.com/users/Pony-Express/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Pony-Express/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": []
+  }
+]
